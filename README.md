@@ -1,1 +1,1 @@
-# Computing-2-Applications
+# Computing 2: Applications
