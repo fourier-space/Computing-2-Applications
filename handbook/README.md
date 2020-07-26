@@ -17,20 +17,20 @@ In Computing 2: Applications students will learn about application programming, 
 ### Learning outcomes ###
 *On completion of this module, students will be better able to:*
 
-Coding (Reinforces S3,  K4):
-: Write computer applications for human interaction using a set of modern paradigms.
+**Coding (Reinforces S3,  K4):**  
+Write computer applications for human interaction using a set of modern paradigms.
 
-UX/UI (Introduces K2):
-: Design and implement user experiences and interfaces.
+**UX/UI (Introduces K2):**  
+Design and implement user experiences and interfaces.
 
-Data (Introduces K1):
-: Manipulate data structures including relational (sql) and non-relational (json).
+**Data (Introduces K1):**  
+Manipulate data structures including relational (sql) and non-relational (json).
 
-Debugging (Reinforces S1, Introduces A1):
-: Debug their own programs, identifying, documenting, and solving software bugs.
+**Debugging (Reinforces S1, Introduces A1):**
+Debug their own programs, identifying, documenting, and solving software bugs.
 
-Best practice (Reinforces S1, Introduces A2):
-: Engage with industry/professional best practice in managing a coding project.
+**Best practice (Reinforces S1, Introduces A2):**
+Engage with industry/professional best practice in managing a coding project.
 
 ### Assignment brief ###
 The deliverable you will produce for this module is a web app with a client-server architecture.
