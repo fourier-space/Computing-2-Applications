@@ -1,14 +1,72 @@
 # Closure and Pure functions
 
 ## Objectives
-
+  * [Objectives](#objectives)
+  * [Content](#content)
+    + [Scope](#scope)
+      - [Lexical Environment/Scope](#lexical-environment-scope)
+      - [For example](#for-example)
+    + [Closure](#closure)
+    + [Pure Function](#pure-function)
+      - [Definition](#definition)
+      - [Examples](#examples)
+      - [Some more side effects](#some-more-side-effects)
+      - [Benefits of Pure Functions](#benefits-of-pure-functions)
+  * [Tutorial Activities](#tutorial-activities)
+  * [Exercises](#exercises)
 ## Content
 
 ### Scope
+**Scope** refers to the current context of the code under execution (the context of which values and expressions can be referenced, or 'visible' to the current codes.) Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
+A **function** in JavaScript creates a scope. A variable **defined exclusively within the function** cannot be accessed from outside the function or within other functions. 
+
+#### Lexical Environment/Scope
+**A lexical scope** in JavaScript means that a variable defined outside a function can be accessible inside another function defined after the variable declaration, but the opposite is not true; the variables defined inside a function will not be accessible outside that function.
+
+#### For example
+```javascript
+function exampleFunction() {
+    let x = "declared inside function";  // x can only be used in exampleFunction
+    console.log("Inside function");
+    console.log(x);
+}
+
+console.log(x);  // Causes error
+```
+Variable declared outside the function is in the ***global scope***, and therefore accessible within the function:
+``` javascript
+var x = "declared outside function";
+
+exampleFunction();
+
+function exampleFunction() {
+    console.log("Inside function");
+    console.log(x);
+}
+
+console.log("Outside function");
+console.log(x);
+```
+Another interesting [example](https://stackoverflow.com/a/19800331/14084739) to help you understand the idea of lexical scope:
+
+```javascript
+const scope = "I am global";
+function whatismyscope(){
+   const scope = "I am just a local";
+   function func() {return scope;}
+   return func;
+}
+
+whatismyscope()()
+
+// type those codes in your Node.js terminal and find out the answer
+```
 
 ### Closure
+From [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures):
 
-#### Examples
+> A **closure** is the combination of a function bundled together (enclosed) with references to its surrounding state (the **lexical environment**). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
 
 Let's look at the following interesting example, a `makeAdder` function:
 ```javascript
@@ -93,7 +151,7 @@ console.log(checkAge2("UK", 15)); // => false
 ```
 
 
-You may wonder why the impure function is indeed *impure*, as you would believe that you initialised a constant object legalDrinkingAge, and both `checkAge1` and `checkAge2` return the same expected results whatsoever.
+You may wonder why the impure function is indeed *impure*, as you would believe that you initialised a constant object `legalDrinkingAge`, and both `checkAge1` and `checkAge2` return the same expected results whatsoever.
 
 Well, try running the following codes and you might be surprised that the impure function actually depends on the system state, and is subjected to factors external to input.
 
@@ -130,7 +188,10 @@ From the Most Adequete Guide to JavaScript:
 * Testable
 * Reasonable 
 * Parallel Code
-More details could be found at https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/ch3.html#the-case-for-purity
+
+At this stage these may be quite vague, but you will start appreciating the power of writing pure functions as the best practice when you encounter more and more practical uses.
+
+(More details could be found at https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/ch3.html#the-case-for-purity)
 
 
 ## Tutorial Activities
