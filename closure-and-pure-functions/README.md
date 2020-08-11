@@ -1,7 +1,7 @@
 # Closure and Pure functions
 
 ## Table of Contents
-* [Objectives](#objectives)
+* [Learning Objectives](#learning-objectives)
 * [Scope](#scope)
     + [Lexical Environment/Scope](#lexical-environment-scope)
     + [For example](#for-example)
@@ -9,12 +9,12 @@
     + [Pure Function](#pure-function)
     + [Definition](#definition)
     + [Examples](#examples)
-    + [Some more side effects](#some-more-side-effects)
+    + [Some more about side effects](#some-more-about-side-effects)
     + [Benefits of Pure Functions](#benefits-of-pure-functions)
 * [Tutorial Activities](#tutorial-activities)
 * [Exercises](#exercises)
 
-## Objectives
+## Learning Objectives
 * To understand the concept of function scopes in JavaScript
 * To understand and apply the concept of closure to create functions
 * To differentiate pure functions from impure ones and appreciate the uses
@@ -22,7 +22,7 @@
 **Scope** refers to the current context of the code under execution (the context of which values and expressions can be referenced, or 'visible' to the current codes.) Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
 A **function** in JavaScript creates a scope. A variable **defined exclusively within the function** cannot be accessed from outside the function or within other functions. 
 
-#### Lexical Environment/Scope
+### Lexical Environment/Scope
 **A lexical scope** in JavaScript means that a variable defined outside a function can be accessible inside another function defined after the variable declaration, but the opposite is not true; the variables defined inside a function will not be accessible outside that function.
 
 #### Example of the lexical scope
@@ -64,7 +64,7 @@ whatismyscope()()
 // type those codes in your Node.js terminal and find out the answer
 ```
 
-### Closure
+## Closure
 From [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures):
 
 > A **closure** is the combination of a function bundled together (enclosed) with references to its surrounding state (the **lexical environment**). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
@@ -89,12 +89,12 @@ In essence, `makeAdder` is a **function factory**. It creates functions that can
 `add5` and `add10` are both closures. They share the **same function body definition**, but **store different lexical environments**. In `add5`'s lexical environment, `x` is `5`, while in the lexical environment for `add10`, `x` is `10`.
 
 
-### Pure Function
+## Pure Function
 
-#### Definition
+### Definition
 A pure function is a function that, given the same input, will always return the same output and does not have any observable side effect.
 
-#### Examples
+### Examples
 Let's take `slice` and `splice`. `slice` is pure because it returns the same output per input every time, guaranteed. `splice` will chew up its array and spit it back out forever changed which is an **observable effect**.
 
 ```javascript
@@ -152,7 +152,6 @@ console.log(checkAge2("UK", 15)); // => false
 
 ```
 
-
 You may wonder why the impure function is indeed *impure*, as you would believe that you initialised a constant object `legalDrinkingAge`, and both `checkAge1` and `checkAge2` return the same expected results whatsoever.
 
 Well, try running the following codes and you might be surprised that the impure function actually depends on the system state, and is subjected to factors external to input.
@@ -167,7 +166,7 @@ console.log(checkAge2("UK", 15)); // false
 ```
 This shows that `checkAge1` is indeed impure - if the external environment changes, its output varies given the same inputs.
 
-#### Some more side effects
+### Some more about side effects
 Side effects may include, but are not limited to
 
 * changing the file system
@@ -184,7 +183,7 @@ From the Most Adequete Guide to JavaScript:
 > Any interaction with the world outside of a function is a side effect. 
 > The philosophy of functional programming postulates that side effects are a primary cause of incorrect behavior.
 
-#### Benefits of Pure Functions
+### Benefits of Pure Functions
 * Cacheable
 * Portable / Self-Documenting
 * Testable
