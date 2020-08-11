@@ -1,29 +1,31 @@
 # Closure and Pure functions
 
-## Objectives
-  * [Objectives](#objectives)
-  * [Content](#content)
-    + [Scope](#scope)
-      - [Lexical Environment/Scope](#lexical-environment-scope)
-      - [For example](#for-example)
-    + [Closure](#closure)
+## Table of Contents
+* [Objectives](#objectives)
+* [Scope](#scope)
+    + [Lexical Environment/Scope](#lexical-environment-scope)
+    + [For example](#for-example)
+* [Closure](#closure)
     + [Pure Function](#pure-function)
-      - [Definition](#definition)
-      - [Examples](#examples)
-      - [Some more side effects](#some-more-side-effects)
-      - [Benefits of Pure Functions](#benefits-of-pure-functions)
-  * [Tutorial Activities](#tutorial-activities)
-  * [Exercises](#exercises)
-## Content
+    + [Definition](#definition)
+    + [Examples](#examples)
+    + [Some more side effects](#some-more-side-effects)
+    + [Benefits of Pure Functions](#benefits-of-pure-functions)
+* [Tutorial Activities](#tutorial-activities)
+* [Exercises](#exercises)
 
-### Scope
+## Objectives
+* To understand the concept of function scopes in JavaScript
+* To understand and apply the concept of closure to create functions
+* To differentiate pure functions from impure ones and appreciate the uses
+## Scope
 **Scope** refers to the current context of the code under execution (the context of which values and expressions can be referenced, or 'visible' to the current codes.) Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
 A **function** in JavaScript creates a scope. A variable **defined exclusively within the function** cannot be accessed from outside the function or within other functions. 
 
 #### Lexical Environment/Scope
 **A lexical scope** in JavaScript means that a variable defined outside a function can be accessible inside another function defined after the variable declaration, but the opposite is not true; the variables defined inside a function will not be accessible outside that function.
 
-#### For example
+#### Example of the lexical scope
 ```javascript
 function exampleFunction() {
     let x = "declared inside function";  // x can only be used in exampleFunction
