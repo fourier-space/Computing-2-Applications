@@ -37,7 +37,7 @@ console.log(x);  // Causes error
 ```
 Variable declared outside the function is in the ***global scope***, and therefore accessible within the function:
 ``` javascript
-var x = "declared outside function";
+const x = "declared outside function";
 
 exampleFunction();
 
@@ -78,8 +78,8 @@ function makeAdder(x) {
   };
 }
 
-var add5 = makeAdder(5);
-var add10 = makeAdder(10);
+const add5 = makeAdder(5);
+const add10 = makeAdder(10);
 
 console.log(add5(2));  // 7
 console.log(add10(2)); // 12
