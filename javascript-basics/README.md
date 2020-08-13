@@ -70,3 +70,4 @@ First let's look at arithmetic operators, for example:
 |-        |	Subtraction	  | 20 - 15
 |*        |	Multiplication| 3 * 7
 |/        |	Division      | 10 / 5
+
