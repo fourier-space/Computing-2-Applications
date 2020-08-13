@@ -26,21 +26,28 @@ This tutorial guide assumes you have the following pre-requisite:
 
 More information can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). 
 
+*********************************
+
 ## Hello World
 
 Just like `print()` in Python, `console.log()` will send output in the debug console.
 
 Try to play with it and create your first JS program:
 ```javascript
-console.log("hello World")
+console.log("hello World");
 ```
 You can press Fn+F5 or go to > Run > Start Debugging, and choose to debug on Node.js.
-***Step 1:***
-![You can press Fn+F5 or go to > Run > Start Debugging](img/start-debugging-vscode.png)
-***Step 2:***
-![Choose to debug on Node.js](img/debug-on-node-js.png)
-***Step 3(result):***
 
+***Step 1:Go to your hello.js file.Press Fn+F5 or go to > Run > Start Debugging***
+![You can press Fn+F5 or go to > Run > Start Debugging](./img/start-debugging-vscode.png | width=300)
+
+***Step 2: Choose to debug on Node.js***
+![Choose to debug on Node.js](img/debug-on-node-js.png || width=300)
+
+***Step 3(result): The debug console displays the filler codes (you could also choose to create a launch.json file.)***
+![Find your result in the debug console](img/console-results.png)
+
+***************************
 
 ## Number
 
@@ -62,7 +69,7 @@ Number(undefined) // NaN
 
 ## Operators
 
-First let's look at arithmetic operators, for example:
+let's look at arithmetic operators, for example:
 
 |Operator |	Name          | Example | Result
 |----------------| ----------------- | ---------------- | ----------------

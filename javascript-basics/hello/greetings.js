@@ -3,13 +3,19 @@
 // it should return "Hello Bob!".
 // If no argument is passed, it shall return "Hello there!"
 
-const greetings = function (name) {
+const greetings = function () {
+    /**This is function description */
+    // you can write your codes here
     return "This should return the name";
 };
 
+// we then export this as a module so codes outside this
+// JS file can import it can use the greetings function
 export default Object.freeze(greetings);
 
-// top tips: String Concatenation
-// With the `+` operator, you can join two strings together
-// "A" + "B" => "AB"
-// Use double quotes "", not single quotes as a good practice
+ /*
+ Top Tips: String Concatenation
+ With the `+` operator, you can join two strings together
+ "A" + "B" => "AB"
+ Use double quotes "", not single quotes as a good practice
+ */
