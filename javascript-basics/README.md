@@ -64,10 +64,10 @@ Number(undefined) // NaN
 
 First let's look at arithmetic operators, for example:
 
-|Operator |	Name          | Example
-|---------| -------------- | --------
-|+        |	Addition      |	6 + 9
-|-        |	Subtraction	  | 20 - 15
-|*        |	Multiplication| 3 * 7
-|/        |	Division      | 10 / 5
+|Operator |	Name          | Example | Result
+|----------------| ----------------- | ---------------- | ----------------
+|+        |	Addition      |	6 + 9  | 15 
+|-        |	Subtraction	  | 20 - 15 | 5
+|*        |	Multiplication| 3 * 7 | 21
+|/        |	Division      | 10 / 5 | 2
 
