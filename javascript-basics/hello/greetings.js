@@ -3,11 +3,11 @@
 // it should return "Hello Bob!".
 // If no argument is passed, it shall return "Hello there!"
 
-const greeting = function (name) {
+const greetings = function (name) {
     return "This should return the name";
 };
 
-export default Object.freeze(greeting);
+export default Object.freeze(greetings);
 
 // top tips: String Concatenation
 // With the `+` operator, you can join two strings together
