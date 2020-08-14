@@ -196,5 +196,7 @@ At this stage these may be quite vague, but you will start appreciating the powe
 
 
 ## Tutorial Activities
+Read and code in CheckAge.js and try to explain what happened.
 
 ## Exercises
+TBC
