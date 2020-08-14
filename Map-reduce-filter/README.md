@@ -26,8 +26,9 @@ For this first set of questions we are going to be creating some functions to de
 
 For the next set of exercises go to the file matrix.js (these functions you are going to create might will definetely help you later as modules):
 
-1. **`Matrix.generate`:** Given a single array and the dimensions of a matrix (in the form ("3,2"), generate the matrix.
+1. **`Matrix.multiply`:** Given a matrix and some integer 'n', multiply each of its elements by n.
 1. **`Matrix.flatten`:** Given a matrix, generate a flattened version.
+1. **`Matrix.generate`:** Given a single array and the dimensions of a matrix (in the form ("3,2"), generate the matrix.
 1. **`Matrix.flipHorizontal`:** Given a matrix, generate a flattened version.
 1. **`Matrix.singleDigitFilter`:** Given an arbitrary matrix filled with numbers, filter each row so that only one digit numbers can be displayed.
 1. **`Matrix.findDeterminant`:** Given an arbitrary matrix filled with mumbers, find its determinant and return it.
