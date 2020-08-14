@@ -10,4 +10,4 @@ console.log("Replace this with your own code");
 const hello = () =>{
     return "Replace this with your own code";
 };
-export Object.freeze(hello);
+export default Object.freeze(hello);
