@@ -37,16 +37,7 @@ Try to play with it and create your first JS program:
 ```javascript
 console.log("hello World");
 ```
-Now let's open the `hello.js` file inside the folder `hello`, complete the programme and run it in your debug console.
-
-***Step 1:Go to your hello.js file. Press Fn+F5 or go to > Run > Start Debugging***
-![You can press Fn+F5 or go to > Run > Start Debugging](./img/start-debugging-vscode.png | width=300)
-
-***Step 2: Choose to debug on Node.js***
-![Choose to debug on Node.js](img/debug-on-node-js.png || width=300)
-
-***Step 3(result): The debug console displays the filler codes (you could also choose to create a launch.json file.)***
-![Find your result in the debug console](img/console-results.png)
+You can open the `hello.js` file inside the folder `hello`, complete the programme and run it in your debug console.
 
 ***************************
 Great job! Let's continue by investigating different data types in JavaScript.
@@ -94,7 +85,7 @@ parseInt("010", 10); // 10
 parseInt("010", 2); // 2
 ```
 
-You may noticed eariler that, a special value called `NaN` (short for "Not a Number") is returned if the string is non-numeric：
+You may noticed earlier that, a special value called `NaN` (short for "Not a Number") is returned if the string is non-numeric：
 ```javascript
 parseInt("zeroonezero", 10); // NaN
 Math.sin("0"); // 0
@@ -219,5 +210,7 @@ function add(x, y) {
 
 > A JavaScript function can take 0 or more named parameters. The function body can contain as many statements as you like and can declare its own variables which are local to that function. The return statement can be used to return a value at any time, terminating the function. If no return statement is used (or an empty return with no value), JavaScript returns `undefined`.
 
+## Exercise!
 
+Following the guides, implement the functionality for the programmes within the `hello` folder. 
 
