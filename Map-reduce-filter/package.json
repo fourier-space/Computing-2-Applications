@@ -12,5 +12,9 @@
     "devDependencies": {
         "fast-check": "^2.1.0",
         "moccha": "^8.0.1"
+    },
+    "dependencies": {
+        "describe": "^1.2.0",
+        "mocha": "^8.1.1"
     }
 }

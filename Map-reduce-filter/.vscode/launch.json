@@ -15,7 +15,8 @@
         },
         {
             "args": [
-                "--colors"
+                "--opts",
+                "${workspaceFolder}/test/**.test.js"
             ],
             "internalConsoleOptions": "openOnSessionStart",
             "name": "Mocha Tests",
