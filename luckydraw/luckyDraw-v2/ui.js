@@ -7,6 +7,7 @@
 //
 
 // version 2.0
+import generateRandom from "./randNumGen.js";
 
 const ui = Object.create(null);
 
@@ -27,11 +28,12 @@ ui.init = function (){
     let result = undefined; // initialize drawn results
     let duplicate = [];
 
-    const generateNumber = function (max, min) {
+    // imported from the other module
+    /* const generateNumber = function (max, min) {
         let random = Math.floor(Math.random() * (max - min + 1) + min);
         // if max is 9 , min is 0, results can be [0,9]
         return random;
-    };
+    }; */
 
     const rollNumber = function () {
         drawButton.textContent = "rolling...";
@@ -40,7 +42,7 @@ ui.init = function (){
             : 2;
         const min = 0;
         let timerId = setInterval(() => {
-                randNumber.textContent = generateNumber(max, min);
+                randNumber.textContent = generateRandom(max, min);
             }, 100);
             // after x seconds stop
         setTimeout(() => {
