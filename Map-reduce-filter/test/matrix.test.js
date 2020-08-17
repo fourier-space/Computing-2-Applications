@@ -1,3 +1,8 @@
+/* jslint long*/
+import fc from "fast-check";
+import describe from "describe";
+import it from "it";
+import chai from "chai";
 import Matrix from "../matrix.js";
 // const it = window.it;
 // const fc = window.fastcheck;
