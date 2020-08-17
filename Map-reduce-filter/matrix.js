@@ -22,6 +22,8 @@ const Matrix = Object.create(null);
 // - You can map the matrix to alter each row, and then map each row to alter
 //   each element!
 
+console.log("hi");
+
 Matrix.multiply = (matrix, n) => matrix.map(
     (row) => row.map((el) => el * n)
 );
