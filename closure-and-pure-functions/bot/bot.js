@@ -1,5 +1,6 @@
 // here is a more practical example which used closure
-// for a user interface
+// for a user interface.
+// Note that this system is still prone to errors.
 
 const bot = function () {
     const status = {
@@ -10,15 +11,26 @@ const bot = function () {
 
     const useEnergy = function (amt) {
     // private method that can get access to private properties
-        status.energyPoint -= amt;
-        if (status.energyPoint <= 0) {
-            console.log("out of energy");
+        const tmp = status.energyPoint - amt;
+        if (tmp <= 0) {
             status.energyPoint = 0;
-        } else if (status.energyPoint >= 10) {
-            console.log("Fully charged Now");
+            return console.log("out of energy");
+        }
+        else {
+            status.energyPoint -= amt;
+            return status.energyPoint;
+        }
+    };
+
+    const chargeEnergy = function (amt) {
+        const tmp =status.energyPoint + amt;
+        if (tmp >= 10) {
             status.energyPoint = 10;
-        } else {
-            console.log(status.energyPoint);
+            return console.log("Fully charged Now");
+        }
+        else {
+            status.energyPoint += amt;
+            return status.energyPoint;
         }
     };
 
@@ -42,7 +54,6 @@ const bot = function () {
         "school":[0, 2, 0],
         "tower": [1, 0, 2]
     };
-
 
     return {
     // these are public properties and methods
@@ -69,7 +80,7 @@ const bot = function () {
         recharge: function () {
         // priviledged methods can calls a private method to
         // manipulate the private property
-            useEnergy(-5);
+            chargeEnergy(5); // add 5 to energypoints
         },
 
         currentLocation: function () {
@@ -83,7 +94,6 @@ const bot = function () {
         // and consume energy point equal to shortest distance traveled
             const now = getCoordinates(status.location);
             /*
-
             const x1 = coordinates[0];
             const y1 = coordinates[1];
             const z1 = coordinates[2];
