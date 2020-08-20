@@ -195,8 +195,6 @@ At this stage these may be quite vague, but you will start appreciating the powe
 (More details could be found at https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/ch3.html#the-case-for-purity)
 
 
-## Tutorial Activities
+## Tutorial Activities & Exercises
 Read and code in CheckAge.js and try to explain what happened.
-
-## Exercises
-TBC
+Then, go to the folder `bot` within this repository, and complete the tasks.

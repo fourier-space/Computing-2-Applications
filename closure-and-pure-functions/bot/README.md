@@ -1,4 +1,4 @@
-# Welcome to the exercise on 'bot'
+# Welcome to the Exercise on Closure
 
 In this exercise, we would like to introduce to you how to create a module pattern, where closure is applied.
 Study the pattern below and try to think about what are the advantages.
@@ -6,7 +6,8 @@ Study the pattern below and try to think about what are the advantages.
 ```javascript
 // This is a example of the module pattern
 // where you use closure to create a 'class-like'
-// object with its private properties and methods.
+// object with its private properties and methods,
+// and returns public properties and methods.
 
 const module = function () {
     let privateProperty = "foo";
@@ -20,6 +21,7 @@ const module = function () {
             // do something
         },
         privilegedMethod: function(args) {
+        // calls private methods to do something on private properties
             privateMethod(args);
         }
     };
