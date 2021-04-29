@@ -1,23 +1,28 @@
 # Computing 2: Applications – Module Handbook – 2020
 ```json
 {
-    "Version": "2.-1.0",
-    "Updated": "2020-07-26"
+    "Version": "2.0.0",
+    "Updated": "2021-04-30"
 }
 ```
 
 ## Teaching staff ##
 ### Module leadership ###
+
+| ![Freddie Page]() | ![Hamed Haddadi]() |
+| Dr Freddie Page | Dr Hamed Haddadi |
+| Module Leader | Associate Module Leader |
+
 ### Teaching assistants ###
 
 ## Module descriptor ##
 **From the module specification:**
-In Computing 2: Applications students will learn about application programming,
+In Computing 2: Applications students will learn about application programming,
 i.e. writing computer programs for end-users.
 This module focuses on web applications and
 students will learn technologies associated with this.
 Students will be exposed to new computing paradigms
-that build on from Computing 1,
+that build on from Computing 1,
 such as functional programming and asynchronous programming.
 Students will also learn about user interface and experience,
 accessing and manipulating data sources, and client-server architectures.
@@ -86,6 +91,8 @@ This module will take place entirely online. We’ll be using a variety of tools
 some you will have used before.
 
 ### Timetabled sessions – Microsoft Teams ###
+[MS Teams](https://teams.microsoft.com/l/channel/19%3a4690d55197304cb5810b2775109d7070%40thread.tacv2/General?groupId=360a72a3-35c9-421b-b6d0-da57998a0bbc&tenantId=2b897507-ee8c-4575-830b-4f8267c3d307)
+
 The timetabled sessions in this module will be done on Teams.
 I’ve set up a number of different rooms, The main room – General,
 and a number of Tutor rooms, one for each Teaching Assistant,
@@ -95,7 +102,7 @@ On Mondays and Tuesdays most weeks, and Friday in W1, W2, W5 for the Bank Holida
 Tutorial Sessions are on Wednesdays in Weeks 2–7 and Tuesday in Week 8.
 
 ### Catch up – Panopto, Google Drive ###
-Panopto Folder • Google Drive Folder
+[Panopto Folder](https://imperial.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2286571568-a454-4fc4-8f39-ac0100c8c407%22) • [Google Drive Folder](https://drive.google.com/drive/folders/11I-F3Lpnky5JvK1najLjOeKHpkUJEVR9?usp=sharing)
 Timetabled sessions in the main room will be recorded.
 After the session I will upload these to Panopto.
 The lecture slides will be made available on Google Drive and Blackboard.
@@ -175,11 +182,13 @@ platform!
 Download and install from https://www.mozilla.org/en-GB/firefox/developer/
 Configure Firefox Developer Edition – Important!
 Navigate to about:config in the address bar.
-Find the security.fileuri.strict_origin_policy property and set it to false.
+Find the `security.fileuri.strict_origin_policy` property and set it to `false`.
 
 ### VS Code ###
-We will be using VS Code as the editor that we support and use for teaching in this module. There’s a number of useful extensions that we’ll be using too.
-You’re free to use whatever editor you prefer, but you might have to solve any problems you run into yourself if you use a different one.
+We will be using VS Code as the editor that we support and use for teaching in this module.
+There’s a number of useful extensions that we’ll be using too.
+You’re free to use whatever editor you prefer,
+but you might have to solve any problems you run into yourself if you use a different one.
 
 Download and install from https://code.visualstudio.com/
 
@@ -255,5 +264,4 @@ https://grumpy.website/
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
-* 2.-1.0: Copy from Google Docs.
-* 2.-1.1: Update for 2020/21
+* 2.0.0: Initial release for 2020/21
