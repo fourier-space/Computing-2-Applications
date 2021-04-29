@@ -1,4 +1,4 @@
-# Computing 2: Applications – Module Handbook – 2020
+# Computing 2: Applications – Module Handbook – 2020/21
 ![Computing 2 Logo](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/logo.png)
 ```json
 {
