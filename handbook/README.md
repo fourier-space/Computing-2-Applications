@@ -61,12 +61,12 @@ The back-end is a webserver that:
 1. serves the client program.
 1. interacts with the client via ajax.
 1. processes data received from the client.
-1. reads and writes from an sql database.
+1. communicates with either a permanent data store or external data source.
 
 Your submission will be your code project on GitHub Classroom
 along with the proforma.
 
-**Deadline Thursday 18th June 16:00**
+**Deadline Thursday 17th June 16:00**
 
 ### Learning and teaching strategy ###
 This is a project based learning module with a
@@ -86,12 +86,13 @@ This module will take place entirely online. We’ll be using a variety of tools
 some you will have used before.
 
 ### Timetabled sessions – Microsoft Teams ###
-MS Teams
 The timetabled sessions in this module will be done on Teams.
-I’ve set up a number of different rooms, The main room, General,
-and 18 other rooms Group ##, one for each personal tutor group.
+I’ve set up a number of different rooms, The main room – General,
+and a number of Tutor rooms, one for each Teaching Assistant,
+You will be assigned to one of these to have support form one of our UTAs.
 The main sessions will be in the General room as timetabled,
-Friday in first week, Tuesdays and Wednesdays thereafter.
+On Mondays and Tuesdays most weeks, and Friday in W1, W2, W5 for the Bank Holidays
+Tutorial Sessions are on Wednesdays in Weeks 2–7 and Tuesday in Week 8.
 
 ### Catch up – Panopto, Google Drive ###
 Panopto Folder • Google Drive Folder
@@ -99,17 +100,12 @@ Timetabled sessions in the main room will be recorded.
 After the session I will upload these to Panopto.
 The lecture slides will be made available on Google Drive and Blackboard.
 
-### Q&A – Piazza ###
-[Access through Blackboard]
-Q&A from the live sessions, tutorials,
-and independent study can be posted on Piazza.
-These will be picked up tutors,
-or you can have a go answering each other’s questions.
-
-### Code repository – GitHub Classroom ###
-Github Classroom will be used for you to submit your project at the end of term.
+### Code repository – GitHub ###
 It is also where all the code examples that I use in the timetabled sessions
 will be linked on github.
+
+### Code submission – GitHub Classroom ###
+Github Classroom will be used for you to submit your project at the end of term.
 To access github classroom, you will need to link your to your GitHub account.
 Follow one of the links below for each assignment and link your account to your
 name then fork your repository.
@@ -136,8 +132,8 @@ reference for your project particularly for the user interface and experience
 you present.
 
 Peer assessment will happen in Week 7.
-In the Tuesday tutorial, you will have time to prepare your draft submission for
-assessment, Then in the Wednesday session you will have time to assess and write
+In the week, you will have time to prepare your draft submission for
+assessment, and will have time to assess and write
 feedback for your assigned project.
 You will receive your feedback on Thursday in time for you to reflect on it for
 the final submission.
@@ -151,7 +147,7 @@ It additionally comes with a package manager, npm (Node Package Manager),
 which we will use to install some dependencies for some of the extensions below.
 It also provides an interactive shell for quick testing of javascript snippets.
 
-Download and install the Current (i.e. 14. and not LTS) version of node from
+Download and install the LTS version (i.e. 14.) of node from
 https://nodejs.org/en/
 
 To test the Node.js has installed correctly:
@@ -180,19 +176,23 @@ Download and install from https://www.mozilla.org/en-GB/firefox/developer/
 Configure Firefox Developer Edition – Important!
 Navigate to about:config in the address bar.
 Find the security.fileuri.strict_origin_policy property and set it to false.
-VS Code
+
+### VS Code ###
 We will be using VS Code as the editor that we support and use for teaching in this module. There’s a number of useful extensions that we’ll be using too.
 You’re free to use whatever editor you prefer, but you might have to solve any problems you run into yourself if you use a different one.
 
 Download and install from https://code.visualstudio.com/
-Debugger for Firefox extension
+
+#### Debugger for Firefox extension ####
 A debugger allows you to step through your code and inspect values of any variables as during execution. Integrating this with your editor lets you see your code in the place you wrote it. Since part of your programs will run in a web browser, the debugger and editor needs to attach to the browser.
 Make sure Firefox Developer Edition is installed (above)
 Install the Debugger for Firefox extension for VSCode https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
 Configure the extension settings, and set:
+```
 Firefox: Executable to the path to Firefox Developer Edition
 Firefox: Keep Profile Changes to true.
 Firefox: Profile to dev-edition-default
+```
 Each workspace folder in vscode has its own debugger settings. This is set in the .vscode/launch.json file. 
 First start a new workspace if you’re not already in one.
 In the Explorer tab, click “Open Folder” and either make a new folder.
@@ -200,6 +200,7 @@ Make a new empty file, i.e. index.html
 To access this, go to the Run panel from the sidebar, and then click the gear (Open Launch.json) icon.
 
 The following configuration is good to start:
+```
 {
   "version": "0.2.0",
   "configurations": [
@@ -216,7 +217,9 @@ The following configuration is good to start:
     }
   ]
 }
-JSLint extension
+```
+
+#### JSLint extension ####
 The house style for your projects will be that they pass JSLint without error (https://jslint.com/help.html).
 I recommend using the extension for VSCode which can automatically check your code and annotate errors inline.
 
@@ -225,38 +228,32 @@ Note: JSLint is not the same as JSHint or ESLint, though they all do similar thi
 Make sure Node.js is installed (above)
 Globally install the JSLint npm package
     Type into the command line:
-Mac & Linux: sudo npm install -g jslint
-Windows: npm install -g jslint
+Mac & Linux: `sudo npm install -g jslint`
+Windows: `npm install -g jslint`
 (a system restart may be needed if the system cannot find the npm command)
 Install the JSLint extension for VSCode https://marketplace.visualstudio.com/items?itemName=ajhyndman.jslint
 Configure the extension settings, add the following to settings.json
+```
 "jslint.version": "es6",
 "jslint.options": {
     "browser": true,
     "devel": true
 }
+```
 
-Suggested add-ons
-The following tools aren’t required but you may find them useful. Do let me know if you find good resources that you wish to share:
-VSCode Live Server
-https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-Minimal web server that auto-refreshes the browser when you edit a source file.
-VSCode SQLite
-https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
-Tool to explore and query SQLite databases.
-
-Additional resources:
-Computing 2 Youtube playlist:  Here are a set of relevant videos I’ve curated. Some of these I’ll refer to directly, others are there for additional insight. https://www.youtube.com/playlist?list=PLIcJ6p7QvGT09pN6L3qvjkVNrhD3ghlux
-MDN – Mozilla Developer Network: Comprehensive resource on all things web development. There’s not one landing page so to speak but prepend “mdn” to all your google searches!
+## Additional resources: ##
+1. Computing 2 Youtube playlist:  Here are a set of relevant videos I’ve curated. Some of these I’ll refer to directly, others are there for additional insight. https://www.youtube.com/playlist?list=PLIcJ6p7QvGT09pN6L3qvjkVNrhD3ghlux
+1. MDN – Mozilla Developer Network: Comprehensive resource on all things web development. There’s not one landing page so to speak but prepend “mdn” to all your google searches!
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
-CSS Tricks: Popular web development blog with some nice examples. https://css-tricks.com/
-JSLint Help: Explanation for some of JSLint’s rules. https://jslint.com/help.html
-Google Html/Css Style Guide: Google’s own style guide for html. We’ll follow these as much as possible. (An equivalent also exists for javascript, and is worth a read, but uses different conventions than we are following in this module.)
+1. CSS Tricks: Popular web development blog with some nice examples. https://css-tricks.com/
+1. JSLint Help: Explanation for some of JSLint’s rules. https://jslint.com/help.html
+1. Google Html/Css Style Guide: Google’s own style guide for html. We’ll follow these as much as possible. (An equivalent also exists for javascript, and is worth a read, but uses different conventions than we are following in this module.)
 https://google.github.io/styleguide/htmlcssguide.html
-Grumpy Website: Blog about bad UI implementations.
+1. Grumpy Website: Blog about bad UI implementations.
 https://grumpy.website/
-Javascript: The Good Parts, Douglas Crockford: A brilliant book that first discovered that javascript does indeed have good parts. It’s 12 years old but still stands up.
-Library Online Access
+1. Javascript: The Good Parts, Douglas Crockford: A brilliant book that first discovered that javascript does indeed have good parts. It’s 12 years old but still stands up.
+[Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
-2.-1.0: Copy from Google Docs.
+* 2.-1.0: Copy from Google Docs.
+* 2.-1.1: Update for 2020/21
