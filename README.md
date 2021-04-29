@@ -16,6 +16,8 @@
 | Module Leader | Associate Module Leader |
 
 ### Teaching assistants ###
+| Leila Al‑Azzawi | Robert Field | Paula Castillero Garcia | Thomas Godden | Nadav Grunberg | Chris Kalogroulis | Hannah Knight | Anna Soligo | Tianxiao Wang |
+|---|---|---|---|---|---|---|---|---|
 
 ## Module descriptor ##
 **From the module specification:**
@@ -86,7 +88,7 @@ The assessment criteria are linked directly to the
 module learning outcomes and are detailed below.
 
 ### Assessment criteria ###
-
+*To be released on Tuesday*
 
 ## Online learning ##
 This module will take place entirely online. We’ll be using a variety of tools,
@@ -116,13 +118,13 @@ will be linked on github.
 ### Code submission – GitHub Classroom ###
 Github Classroom will be used for you to submit your project at the end of term.
 To access github classroom, you will need to link your to your GitHub account.
-Follow one of the links below for each assignment and link your account to your
+Follow the links on [Blackboard](https://bb.imperial.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_1809624_1&course_id=_23581_1) for the assignment and link your account to your
 name then fork your repository.
 
 ### Resource repository – Blackboard ###
-Blackboard course page
-Links to all this, and access to some of the tools such as Piazza,
-will be on Blackboard.
+[Blackboard course page](https://bb.imperial.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_1809624_1&course_id=_23581_1)
+
+Links to all this, and access to some of the tools will be on Blackboard.
 
 ## Peer assessment ##
 In this module, you will have the opportunity to engage in peer assessment.
