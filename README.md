@@ -9,7 +9,8 @@
 ## Teaching staff ##
 ### Module leadership ###
 
-| ![Freddie Page]() | ![Hamed Haddadi]() |
+| ![Freddie Page](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/Freddie.jpg) | ![Hamed Haddadi](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/Hamed.jpg) |
+|---|---|
 | Dr Freddie Page | Dr Hamed Haddadi |
 | Module Leader | Associate Module Leader |
 
