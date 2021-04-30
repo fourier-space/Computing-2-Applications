@@ -240,9 +240,11 @@ Note: JSLint is not the same as JSHint or ESLint, though they all do similar thi
 
 Make sure Node.js is installed (above)
 Globally install the JSLint npm package
+
     Type into the command line:
-Mac & Linux: `sudo npm install -g jslint`
-Windows: `npm install -g jslint`
+* Mac & Linux: `sudo npm install -g jslint`
+* Windows: `npm install -g jslint`
+
 (a system restart may be needed if the system cannot find the npm command)
 Install the JSLint extension for VSCode https://marketplace.visualstudio.com/items?itemName=ajhyndman.jslint
 Configure the extension settings, add the following to settings.json
@@ -253,6 +255,74 @@ Configure the extension settings, add the following to settings.json
     "devel": true
 }
 ```
+
+#### Mocha Test Explorer ####
+Just like in Python we are going to use unit tests to help to write code free of errors.
+The framework we will use in Javascript is Mocha.
+This has an integrated extension for vscode, that you can find from the marketplace.
+https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter
+
+Install this extension.
+
+To link this up to each of your projects, you should install the Mocha node extension too.
+We can do this globally, or per project. To do it globally run,
+
+    Type into the command line:
+* Mac & Linux: `sudo npm install -g mocha fast-check`
+* Windows: `npm install -g mocha fast-check`
+
+You can also do this per project too using the `--save-dev` flag instead of the `-g` flag.
+
+You'll notice we've also installed *fast-check*,
+which is a property based testing library that we will be using here too.
+
+Once your workspace is set up (below), each project with tests will need a `.mocharc.json` file
+to let it know which tests to select.
+Once your workspace is set up. I use the following template.
+````
+{
+    "spec": "./**/tests/*.test.js"
+}
+````
+Which will look for all files named `[something].test.js` in any folder that is named `tests`.
+
+### GitHub ###
+You are reading this module handbook on GitHub.
+Make sure to have your own account too.
+You should have already set this up in Computing 1,
+but in case you didn't you should make a GitHub Account.
+
+#### GitHub Classroom ####
+We will be using GitHub Classroom for submissions.
+The link is given on the module blackboard page.
+Use this to create a submission repository.
+This is how we will mark the coursework.
+
+**There is a README.md file there too.
+Edit this file to add your CID**.
+
+#### Module Repository ####
+The repository that this handbook is in is
+[fourier-space/Computing-2-Applications](https://github.com/fourier-space/Computing-2-Applications)
+It is also the repository that hosts the weekly exercises, which will be released progressively.
+In the next step we will link both repos to a VSCode folder.
+
+### VSCode Workspace ###
+We need to make a workspace for the activities that we will be doing this term.
+
+1. In VSCode open a new folder. `File » Open Folder…`.
+1. Next create a `Computing 2` folder in a location of your choosing.
+1. Next, follow the instructions on https://code.visualstudio.com/docs/editor/github to clone both the module repo and your submission repo to this folder.
+
+## Test your setup ##
+You can open a subdirectory at any time using the `Open Folder…` command,
+this is useful when you want to select a specific app to run.
+
+Open the `Week 1 - Template for web apps` directory in the `Computing-2-Applications` repo.
+Then run `Launch Webserver` configuration, this should then make a webserver that is in indication that all has gone well!
+
+You'll also want to check if the Mocha Test explorer is running.
+The first test should fail – see if you can fix it.
 
 ## Additional resources: ##
 1. Computing 2 Youtube playlist:  Here are a set of relevant videos I’ve curated. Some of these I’ll refer to directly, others are there for additional insight. https://www.youtube.com/playlist?list=PLIcJ6p7QvGT09pN6L3qvjkVNrhD3ghlux
