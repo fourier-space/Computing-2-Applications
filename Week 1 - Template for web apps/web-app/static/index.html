@@ -8,6 +8,7 @@
 <link rel="icon" href="favicon.png"> <!-- Import 'Favorites Icon' – favicon.png -->
 <script type="module" src="main.js"></script> <!-- Load the main script. Must be type="module". Have only one of these -->
 
+<!-- Below is an example html web page. -->
 <h1>Minimal Example Web App</h1>
 
 <h2>Structure</h2>
@@ -17,14 +18,26 @@
 </p>
 
 <ul>
-    <li>Static
+    <li>web-app
         <ul>
-            <li>default.css</li>
-            <li>index.html</li>
-            <li>main.js</li>
-            <li>[Other statically served files]</li>
+            <li>static
+                <ul>
+                    <li>default.css</li>
+                    <li>index.html</li>
+                    <li>main.js</li>
+                    <li>[Other statically served files]</li>
+                </ul>
+            </li>
+            <li>test
+                <ul>
+                    <li>[Test files for modules]</li>
+                </ul>
+            </li>
+            <li>server.js</li>
+            <li>[Other server side files – private to the server]</li>
         </ul>
     </li>
+    <li>[Files related to the project, i.e. github files, node modules, vscode, etc]</li>
 </ul>
 
 <h2>Server Interaction</h2>
@@ -38,4 +51,39 @@
 <p>
     To make sure you've set up your environment correctly,
     complete the following tasks:
+    <ol>
+        <li><input type="checkbox">Install Node.js</li>
+        <li>
+            <input type="checkbox">Install and configure Firefox Developer Edition
+            <ol>
+                <li><input type="checkbox">Install AXE extension</li>
+            </ol>
+        </li>
+        <li>
+            <input type="checkbox">Install VS Code
+            <ol>
+                <li><input type="checkbox">Install Debugger for Firefox extension</li>
+                <li><input type="checkbox">Install JSLint extension</li>
+                <li><input type="checkbox">Install Mocha Test Explorer extension</li>
+            </ol>
+        </li>
+        <li>
+            <input type="checkbox">GitHub
+            <ol>
+                <li><input type="checkbox">Create your own GitHub Account</li>
+                <li><input type="checkbox">Accept the GitHub Classroom coursework assignment.</li>
+                <li><input type="checkbox">Find the  fourier-space /
+                    Computing-2-Applications repo</li>
+            </ol>
+        </li>
+        <li>
+            <input type="checkbox">Set Up VSCode
+            <ol>
+                <li><input type="checkbox">Create a new folder for Computing 2</li>
+                <li><input type="checkbox">Clone the module repo into your workspace</li>
+                <li><input type="checkbox">Clone your assignment repo into your workspace</li>
+            </ol>
+        </li>
+        <li>Edit the README.md file in your submission repo with your CID and push.</li>
+    </ol>
 </p>
