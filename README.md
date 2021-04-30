@@ -188,6 +188,12 @@ Configure Firefox Developer Edition – Important!
 Navigate to about:config in the address bar.
 Find the `security.fileuri.strict_origin_policy` property and set it to `false`.
 
+#### axe - Web Accessibility Testing ####
+We will also use the *axe* extension to test the accessibility of our web apps.
+Install this for firefox developer edition.
+
+https://addons.mozilla.org/en-GB/firefox/addon/axe-devtools/
+
 ### VS Code ###
 We will be using VS Code as the editor that we support and use for teaching in this module.
 There’s a number of useful extensions that we’ll be using too.
