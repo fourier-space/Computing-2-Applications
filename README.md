@@ -2,8 +2,8 @@
 ![Computing 2 Logo](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/logo.png)
 ```json
 {
-    "Version": "2.0.0",
-    "Updated": "2021-04-30"
+    "Version": "2.1.0",
+    "Updated": "2021-05-03"
 }
 ```
 
@@ -46,7 +46,7 @@ using a set of modern paradigms.
 Design and implement user experiences and interfaces.
 
 **Data (Introduces K1):**  
-Manipulate data structures including relational (sql) and non-relational (json).
+Manipulate data structures.
 
 **Debugging (Reinforces S1, Introduces A1):**  
 Debug their own programs, identifying, documenting, and solving software bugs.
@@ -90,10 +90,43 @@ The assessment criteria are linked directly to the
 module learning outcomes and are detailed below.
 
 ### Assessment criteria ###
-*To be released on Tuesday*
+
+| Criterion | Pass (D) | Excellent (A) |
+|---|---|---|
+| **Coding** | Produce a back-end server that serves a client program. | Project is appropriately structured into interacting components and modules. |
+|  |  | Make use of functional style where applicable, incorporating purity. |
+|  |  | Make use of asynchronous code, i.e. events, callbacks, promises. |
+| **UX/UI** | Define a brief for the project that communicates the intention of the application (proforma). | Present an intuitive interface with suitable controls that communicate their intention. |
+|  |  | Conforms to accessibility standards (e.g WCAG 2.1 AA). |
+| **Data** | Exchange data between client and server programs using json. | Exchange data between a permanent data store or an external data source |
+|  |  | Use functional list manipulation methods (map, reduce, etc.) to manipulate data structures. |
+| **Debugging** | Describes the identification and resolution of a simple bug. | Documents the identification and resolution of subtle bugs i.e. edge and corner cases in a systematised way. |
+|  | Use of a property-based testing framework. | Property tests are well constructed testing functionality rather than implementation. |
+| **Best practice** | Adhere to the *Submission Constaints* below. | Conform to the ‘in-house coding style’ i.e. javascript files pass jslint without error. |
+|  |  | The intention of the code is clear, i.e. by appropriate comments, interface, and naming. |
+|  |  | Project separates structural (html), styling (css), and behavioural (javascript) code. |
+
+| Assessment Criteria are marked as: |  |
+|---|---|
+| **Fail (F)** | if the work does not meet **all** the points of the Pass (D) descriptor. |
+| **Pass (D)** | if the work meets all the points of the Pass (D) descriptor, but doesn't qualify for any higher grade. |
+| **Good (C)** | if the work meets all the points of the Pass (D) descriptor, and **some** of the points of the Excellent (A) descriptor. |
+| **Very Good (B)** | if the work meets all the points of the Pass (D) descriptor, and **most** of the points of the Excellent (A) descriptor. |
+| **Excellent (A)** | if the work meets **all** of the points of the Excellent (A) descriptor. |
+| **Exceptional (A٭)** | if the work meets all of the points of the Excellent (A) descriptor and is a level of quality higher than what would usually be expected for Excellent (A) work. |
+
+Additionally, a further 5% bonus may be awarded at the discretion of the module leader for good citizenship in answering and asking questions, helping others, etc.
+
+### Submission Constraints ###
+Your submission must also conform to the following:
+
+1. Your coding project must be written in Javascript for the server side component to be run on Node.js (14+).
+2. You can only make use of the following external modules: `express`, `express-session`, `nedb`, `fast-check`, `mocha`.
+3. Your webserver must be hosted on port `8080`, with the main page accessible at http://localhost:8080/.
+4. The structure of you project should be that there is a `web-app` directory at the top level of your repository. Within this is a `server.js` which will be the main file that is run.
 
 ## Online learning ##
-This module will take place entirely online. We’ll be using a variety of tools,
+We’ll be using a variety of online learning tools,
 some you will have used before.
 
 ### Timetabled sessions – Microsoft Teams ###
@@ -346,4 +379,5 @@ https://grumpy.website/
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
-* 2.0.0: Initial release for 2020/21
+* 2.0.0: Initial release for 2020/21.
+* 2.1.0: Released assessment criteria.
