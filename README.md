@@ -10,14 +10,16 @@
 ## Teaching staff ##
 ### Module leadership ###
 
-| ![Freddie Page](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/Freddie.jpg) | ![Hamed Haddadi](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/Hamed.jpg) |
+| ![Freddie Page](handbook/Freddie.jpg) | ![Hamed Haddadi](handbook/Hamed.jpg) |
 |---|---|
 | Dr Freddie Page | Dr Hamed Haddadi |
 | Module Leader | Associate Module Leader |
 
 ### Teaching assistants ###
-| Leila Al‑Azzawi | Robert Field | Paula Castillero Garcia | Thomas Godden | Nadav Grunberg | Chris Kalogroulis | Hannah Knight | Anna Soligo | Tianxiao Wang |
-|---|---|---|---|---|---|---|---|---|
+| Leila Al‑Azzawi | Robert Field | Paula Castillero Garcia | Thomas Godden | Nadav Grunberg |
+| ![Leila](handbook/Leila.png) | ![Robert](handbook/Robert.png) | ![Paula](handbook/Paula.png) | ![Thomas](handbook/Thomas.png) |  |
+Chris Kalogroulis | Hannah Knight | Anna Soligo | Tianxiao Wang | |
+| ![Chris](handbook/Chris.png) | ![Hannah](handbook/Hannah.png) | ![Anna](handbook/Anna.png) | ![Tianxiao](handbook/Tianxiao.png) |
 
 ## Module descriptor ##
 **From the module specification:**
