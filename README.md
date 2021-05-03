@@ -16,10 +16,12 @@
 | Module Leader | Associate Module Leader |
 
 ### Teaching assistants ###
-| Leila Al‑Azzawi | Robert Field | Paula Castillero Garcia | Thomas Godden | Nadav Grunberg |
 | ![Leila](handbook/Leila.png) | ![Robert](handbook/Robert.png) | ![Paula](handbook/Paula.png) | ![Thomas](handbook/Thomas.png) |  |
-Chris Kalogroulis | Hannah Knight | Anna Soligo | Tianxiao Wang | |
-| ![Chris](handbook/Chris.png) | ![Hannah](handbook/Hannah.png) | ![Anna](handbook/Anna.png) | ![Tianxiao](handbook/Tianxiao.png) |
+|---|---|---|---|---|
+| Leila Al‑Azzawi | Robert Field | Paula Castillero Garcia | Thomas Godden | Nadav Grunberg |
+| ![Chris](handbook/Chris.png) | ![Hannah](handbook/Hannah.png) | ![Anna](handbook/Anna.png) | ![Tianxiao](handbook/Tianxiao.png) | |
+| Chris Kalogroulis | Hannah Knight | Anna Soligo | Tianxiao Wang |  |
+
 
 ## Module descriptor ##
 **From the module specification:**
