@@ -1,3 +1,10 @@
+/**
+ * This test file is different from the one supplied in the exam.
+ * Here we make use of Property Based Testing.
+ * The tests may look a bit more hairy than what you are used to.
+ * Don't Panic! We'll discuss PBT fully later in the module.
+ */
+
 import Exam from "../c1-exam.js";
 import fc from "fast-check";
 
@@ -11,7 +18,7 @@ describe("Lists – every_third", function () {
         fc.assert(fc.property(fc.array(fc.integer()), function (array) {
             const padded_array = array.flatMap((val) => [val, "junk", "data"]);
             const every_third_padded_array = Exam.every_third(padded_array);
-            return (
+            return ( // JSON.stringify is a way to compare arrays.
                 JSON.stringify(every_third_padded_array) ===
                 JSON.stringify(array)
             );
