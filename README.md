@@ -295,7 +295,9 @@ Configure the extension settings, add the following to settings.json
 "jslint.version": "es6",
 "jslint.options": {
     "browser": true,
-    "devel": true
+    "devel": true,
+    "node": true,
+    "predef": ["describe", "it"]
 }
 ```
 
