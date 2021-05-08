@@ -92,11 +92,11 @@ const hello_lyrics = words.map(
     }
 );
 
-const hello_lyrics = words.reduce(
-    function (a, x) {
-        return a + " " + x;
-    }
-);
+// const hello_lyrics = words.reduce(
+//     function (a, x) {
+//         return a + " " + x;
+//     }
+// );
 
 console.log(hello_lyrics);
 
