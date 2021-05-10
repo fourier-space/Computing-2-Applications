@@ -152,6 +152,14 @@ returns the same output for the same input,
 has no side-effects, e.g. mutation.
 
 ## Further Watching ##
+I explore higher order functons a bit more in this
+[bonus video](https://imperial.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7ab4fb5c-86ed-4d44-9ba8-ad2401793965)
+where I continue the friend list example.
+
+There's a nice video series called
+[*Fun fun function*](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+that you might enjoy.
+
 The following is **optional**, but if you really want to get into functional programming,
 this video from Douglas Crockford has some good exercises in it.
 
