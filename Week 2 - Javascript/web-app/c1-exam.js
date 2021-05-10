@@ -101,6 +101,8 @@ Exam.greeting = function (username, location = "London") {
 //     return "Hello, ${username}, how is ${location}?";
 // };
 
+
+
 // Write a function three input arguments,
 // the first one, x, is required and the second two are
 // the following keywords with default values:
