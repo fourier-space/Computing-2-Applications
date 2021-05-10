@@ -100,9 +100,9 @@ const combine_tiles = function (row, new_row = []) {
     }
 };
 
-const pad_zeros = (row) => row.concat((new Array(4 - row.length)).fill(0));
+// const pad_zeros = (row) => row.concat((new Array(4 - row.length)).fill(0));
 
-// const pad_zeros = (row) => row.concat([0, 0, 0, 0]).slice(0, 4);
+const pad_zeros = (row) => row.concat([0, 0, 0, 0]).slice(0, 4);
 
 const row_left = (row) => pad_zeros(combine_tiles(strip_zeros(row)));
 
