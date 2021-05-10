@@ -134,10 +134,11 @@ Make a new file `list.js` that exports an object `List` that defines the followi
 functions in its interface.
 
 I'll provide two to start,
-1. `sequence = (number) => array`
-1. `transpose = (array) => array`
+1. `sequence = (number) => array`. Returns a new array with entries from `0` to `n-1`.
+1. `transpose = (array) => array`. Transposes a 2×2 array (swaps rows and columns).
 
 See if you can write the following:
+1. `range = (start, end, step) => array`. Returns an array with equally spaced entries starting at `start` and ending at `end` (exclusive) in steps of `step`. i.e. `range(2, 5, 0.5) = [2, 2.5, 3, 3.5, 4, 4.5]`.
 1. Write curried versions of `map`, `includes`, `filter`, `every`, `some`, `flat_map` – i.e. for map, write a function with the signature `map = (function) => (array) => array`, that on its first call takes a function, and on its second takes an array and returns that function mapped to the array.
 1. write `reject = (function) => (array) => array`, which is the oposite of `filter`, e.g. removes all values for which the function returns `true`.
 1. write `first = (array) => element` that returns the first element of the array, also write `last`
