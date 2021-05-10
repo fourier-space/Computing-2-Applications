@@ -20,4 +20,4 @@ const board = [
     [0, 2, 2, 3]
 ];
 
-print_boards(board, left(board));
+print_boards(board, right(board));
