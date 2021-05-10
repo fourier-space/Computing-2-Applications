@@ -1,12 +1,5 @@
 import game_2048 from "./game_2048.js";
-const left = game_2048.left;
-
-const board = [
-    [1, 1, 0, 0],
-    [1, 0, 2, 0],
-    [0, 2, 0, 2],
-    [1, 1, 2, 0]
-];
+const {left, right, up, down} = game_2048;
 
 const print_boards = function (b1, b2) {
     const string_rows_1 = b1.map(String);
@@ -20,4 +13,11 @@ const print_boards = function (b1, b2) {
     console.log(output);
 };
 
-print_boards(board, left(board));
+const board = [
+    [1, 1, 2, 2],
+    [1, 0, 0, 1],
+    [0, 0, 1, 1],
+    [0, 2, 2, 3]
+];
+
+print_boards(board, right(board));
