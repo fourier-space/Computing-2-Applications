@@ -100,6 +100,10 @@ const combine_tiles = function (row, new_row = []) {
     }
 };
 
+const transpose = (array) => array[0].map(
+    (ignore, colIndex) => array.map((row) => row[colIndex])
+);
+
 // const pad_zeros = (row) => row.concat((new Array(4 - row.length)).fill(0));
 
 const pad_zeros = (row) => row.concat([0, 0, 0, 0]).slice(0, 4);
@@ -110,7 +114,16 @@ game_2048.left = (board) => board.map(row_left);
 
 game_2048.right = (board) => h_flip(game_2048.left(h_flip(board)));
 
-game_2048.up = identity;
-game_2048.down = identity;
+game_2048.up = (board) => transpose(game_2048.left(transpose(board)));
+
+game_2048.down = (board) => transpose(game_2048.right(transpose(board)));
 
 export default Object.freeze(game_2048);
+
+
+game_2048.up([
+    [1, 1, 2, 2],
+    [1, 0, 0, 1],
+    [0, 0, 1, 1],
+    [0, 2, 2, 3]
+]);
