@@ -171,5 +171,6 @@ Be warned – it's long.
 Ahead of next week, watch the following video on property based testing in Javascript.
 * [The Magic of Generative Testing: Fast-Check in JavaScript - Gabriel Lebeq](https://www.youtube.com/watch?v=a2J_FSkxWKo&list=PLIcJ6p7QvGT09pN6L3qvjkVNrhD3ghlux&index=2)
 
+
 Finally, the next video is optional, but interesting on writing good tests.
 * [Structure and Interpretation of Test Cases - Kevlin Henney](https://www.youtube.com/watch?v=tWn8RA_DEic&list=PLIcJ6p7QvGT09pN6L3qvjkVNrhD3ghlux&index=1)
