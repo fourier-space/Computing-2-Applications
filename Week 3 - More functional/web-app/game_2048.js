@@ -1,3 +1,4 @@
+
 const game_2048 = Object.create(null);
 
 // const board = [
