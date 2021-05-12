@@ -266,7 +266,8 @@ The following configuration is good to start:
       "request": "launch",
       "reAttach": true,
       "reloadOnAttach": true,
-      "file": "${fileDirname}/index.html",
+      "url": "http://localhost:8080/index.html",
+      "webRoot": "${workspaceFolder}/web-app/static",
       "preferences": {
         "security.fileuri.strict_origin_policy": false
       }

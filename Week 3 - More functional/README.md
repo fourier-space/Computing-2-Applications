@@ -50,7 +50,7 @@ and then saying the general case can be provided in terms of a more simple case,
 such that eventually we reduce to the base case.
 
 In the Q&A the example we used was the `factorial` function.
-The base case here was `factorial(0) = 0`,
+The base case here was `factorial(0) = 1`,
 and the general case is `factorial(n) = n * factorial(n - 1)`.
 
 **Re-implement this yourself and check the results agree with what you expect.**
