@@ -267,7 +267,7 @@ The following configuration is good to start:
       "reAttach": true,
       "reloadOnAttach": true,
       "url": "http://localhost:8080/index.html",
-      "webRoot": "${workspaceFolder}/web-app/static"
+      "webRoot": "${workspaceFolder}/web-app/static",
       "preferences": {
         "security.fileuri.strict_origin_policy": false
       }
