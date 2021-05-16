@@ -2,8 +2,8 @@
 ![Computing 2 Logo](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/logo.png)
 ```json
 {
-    "Version": "2.1.0",
-    "Updated": "2021-05-03"
+    "Version": "2.2.0",
+    "Updated": "2021-05-16"
 }
 ```
 
@@ -79,7 +79,7 @@ The back-end is a webserver that:
 Your submission will be your code project on GitHub Classroom
 along with the proforma.
 
-**Deadline Thursday 17th June 16:00**
+**Deadline Friday 18th June 16:00**
 
 ### Learning and teaching strategy ###
 This is a project based learning module with a
