@@ -18,7 +18,9 @@ describe("Lists – every_third", function () {
         fc.assert(fc.property(
             fc.array(fc.integer()),
             function (array) {
-                const padded_array = array.flatMap((val) => [val, "junk", "data"]);
+                const padded_array = array.flatMap(
+                    (val) => [val, "junk", "data"]
+                );
                 const every_third_padded_array = Exam.every_third(padded_array);
                 return ( // JSON.stringify is a way to compare arrays.
                     JSON.stringify(every_third_padded_array) ===
