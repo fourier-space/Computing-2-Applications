@@ -15,14 +15,17 @@ describe("Lists – every_third", function () {
         "the first of which is that element; " +
         "Then applying every_third will return the original array."
     ), function () {
-        fc.assert(fc.property(fc.array(fc.integer()), function (array) {
-            const padded_array = array.flatMap((val) => [val, "junk", "data"]);
-            const every_third_padded_array = Exam.every_third(padded_array);
-            return ( // JSON.stringify is a way to compare arrays.
-                JSON.stringify(every_third_padded_array) ===
-                JSON.stringify(array)
-            );
-        }));
+        fc.assert(fc.property(
+            fc.array(fc.integer()),
+            function (array) {
+                const padded_array = array.flatMap((val) => [val, "junk", "data"]);
+                const every_third_padded_array = Exam.every_third(padded_array);
+                return ( // JSON.stringify is a way to compare arrays.
+                    JSON.stringify(every_third_padded_array) ===
+                    JSON.stringify(array)
+                );
+            }
+        ));
     });
 });
 
@@ -42,14 +45,17 @@ describe("Strings – merge_sentences", function () {
         "When it is split into two sentences of the odd and even words; " +
         "Then applying merge_sentences will return the original sentence."
     ), function () {
-        fc.assert(fc.property(even_sentence, function (sentence) {
-            const words = sentence.split(" ");
-            const even_words = words.filter((ignore, k) => k % 2 === 0);
-            const odd_words = words.filter((ignore, k) => k % 2 !== 0);
-            const s1 = even_words.join(" ");
-            const s2 = odd_words.join(" ");
-            return Exam.merge_sentences(s1, s2) === sentence;
-        }));
+        fc.assert(fc.property(
+            even_sentence,
+            function (sentence) {
+                const words = sentence.split(" ");
+                const even_words = words.filter((ignore, k) => k % 2 === 0);
+                const odd_words = words.filter((ignore, k) => k % 2 !== 0);
+                const s1 = even_words.join(" ");
+                const s2 = odd_words.join(" ");
+                return Exam.merge_sentences(s1, s2) === sentence;
+            }
+        ));
     });
 });
 
