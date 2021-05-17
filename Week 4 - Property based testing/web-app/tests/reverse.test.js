@@ -40,7 +40,7 @@ describe("Reverse", function () {
 
     });
 
-    it (
+    it(
         "The nth character in a string is equal to the (length - 1 - n)th " +
         "character of its reversal",
         function () {
