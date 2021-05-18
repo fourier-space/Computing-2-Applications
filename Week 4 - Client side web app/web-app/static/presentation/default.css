@@ -1,0 +1,45 @@
+:root
+{
+    --background-colour: black;
+    --base-text: white;
+    --accent-text-1: #50b848;
+    --accent-text-2: #f69c1d;
+
+    font-family: "Fira Sans", sans-serif;
+}
+
+a:link,
+a:visited
+{
+    color: var(--accent-text-1);
+}
+
+body
+{
+    background: var(--background-colour);
+    color: var(--base-text);
+    font-size: 20pt;
+}
+
+footer
+{
+    bottom: 0;
+    font-size: smaller;
+    position: absolute;
+}
+
+
+.active
+{
+    color: var(--accent-text-1);
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+.visible
+{
+    visibility: visible;
+}

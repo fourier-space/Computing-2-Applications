@@ -1,0 +1,22 @@
+@import "default.css";
+
+iframe
+{
+    background: white;
+    border: 2px solid var(--accent-text-2);
+    height: 500px;
+    width: 100%;
+}
+
+h1
+{
+    font-size: 56pt;
+    font-weight: normal;
+}
+
+h2
+{
+    user-select: none;
+    font-size: 28pt;
+    font-weight: bold;
+}
