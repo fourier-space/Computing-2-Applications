@@ -1,0 +1,41 @@
+:root
+{
+    --banner-height: 80px;
+    --nav-width: 300px;
+}
+
+body
+{
+    background: #f80;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+
+header
+{
+    background: #8f0;
+    height: var(--banner-height);
+    width: 100%;
+    position: absolute;
+}
+
+main
+{
+    background: #80f;
+    width: calc(100% - var(--nav-width));
+    height: calc(100% - var(--banner-height));
+    position: absolute;
+    top: var(--banner-height);
+    left: var(--nav-width);
+}
+
+nav
+{
+    background: #08f;
+    position: absolute;
+    width: var(--nav-width);
+    height: calc(100% - var(--banner-height));
+    top: var(--banner-height)
+}
