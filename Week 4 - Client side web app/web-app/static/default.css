@@ -1,7 +1,12 @@
 :root
 {
     --banner-height: 80px;
+    --button-height: 80px;
+    --composition-height: 160px;
+    --message-padding: 1em;
     --nav-width: 300px;
+
+    font-family: Fira Sans, Helvetica, Verdana, Arial, sans-serif;
 }
 
 body
@@ -19,6 +24,7 @@ header
     height: var(--banner-height);
     width: 100%;
     position: absolute;
+    text-align: center;
 }
 
 main
@@ -37,5 +43,57 @@ nav
     position: absolute;
     width: var(--nav-width);
     height: calc(100% - var(--banner-height));
-    top: var(--banner-height)
+    top: var(--banner-height);
+}
+
+#messages
+{
+    background-color: #f08;
+    height: calc(100% - var(--composition-height));
+    position: absolute;
+    width: 100%;
+}
+
+#composition
+{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    height: 100%;
+    width: calc(100% - var(--button-height));
+}
+
+#send-button
+{
+    position: absolute;
+    right: 0;
+    height: var(--button-height);
+    width: var(--button-height);
+    top: calc(50% - var(--button-height) / 2);
+}
+
+#composition-area
+{
+    background-color: #f80;
+    bottom: 0;
+    position: absolute;
+    height: var(--composition-height);
+    width: 100%;
+}
+
+.from-me,
+.from-them
+{
+    padding: var(--message-padding);
+}
+
+.from-me
+{
+    background-color: #0f8;
+    text-align: right;
+}
+
+.from-them
+{
+    background-color: #80f;
 }
