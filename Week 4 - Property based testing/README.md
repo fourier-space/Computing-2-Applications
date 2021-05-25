@@ -144,3 +144,10 @@ and what tests you can write for them.
 ### Further Reading ###
 I have included solutions to the week 1 exercises.
 Have a look at the tests, see if you can work out what they are doing.
+
+The fastcheck documentation is also a good reference once you get the hang of things
+https://github.com/dubzzz/fast-check
+
+Not javascript, but the next video gives some good insights how to construct tests.
+[The lazy programmer's guide to writing thousands of tests - Scott Wlaschin](https://www.youtube.com/watch?v=IYzDFHx6QPY)
+
