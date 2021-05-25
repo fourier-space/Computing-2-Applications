@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-gb">
+<meta charset="utf-8">
+<title>Chat with Robots!</title>
+<link rel="stylesheet" href="default.css">
+<link rel="shortcut icon" href="favicon.png">
+<script type="module" src="main.js"></script>
+
+<header>
+    <h1>Chat with Robots 🤖</h1>
+</header>
+
+<main>
+    <h2 id="bot-title" class="message-heading"></h2>
+    <section class="message-pane" id="messages">
+
+            <div name="message" class="from-me">Hello Robot</div>
+
+            <div name="message" class="from-them">Hello Humon</div>
+
+    </section>
+    <section>
+        <textarea id="composition" class="composition-pane"
+            aria-label="Compose message" placeholder="Say hello…"></textarea>
+        <button id="send-button" class="composition-send" title="Send Message">🦾</button>
+    </section>
+</main>
+
+<nav>
+    <ul id="bot-list" role="listbox" aria-label="Bots online">
+
+            <li name="bot" role="option" tabindex="0"> AgreeBot </li>
+
+    </ul>
+</nav>

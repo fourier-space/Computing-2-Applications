@@ -1,0 +1,238 @@
+:root
+{
+    --banner-height: 80px;
+    --border-radius: 2.5px;
+    --button-height: 80px;
+    --compose-height: 160px;
+    --font-size: 14pt;
+    --message-padding: 1em;
+    --nav-width: 300px;
+    --pane-margin: 2px;
+
+    --transition-duration: 0.167s;
+
+    --palette-accent0: #804;
+    --palette-accent1: #d07;
+    --palette-accent2: #f08;
+    --palette-accent3: #e48;
+    --palette-base0: #232629;
+    --palette-base1: #2d3136;
+    --palette-base2: #31363b;
+    --palette-base3: #4d5057;
+    --palette-base4: #616569;
+    --palette-base5: #eff0f1;
+    --palette-secondary0: #345e75;
+    --palette-secondary1: #3daee9;
+    
+    --card-bg: var(--palette-base1);
+    --card-fg: var(--palette-base5);
+    --card-h-bg: var(--palette-secondary0);
+    --card-h-fg: var(--palette-base5);
+    --pane-bg: var(--palette-base0);
+    --pane-border: var(--palette-base4);
+    --input-bg: var(--palette-base0);
+    --input-border: var(--palette-base4);
+    --input-button-bg: var(--palette-base2);
+    --input-active: var(--palette-secondary1);
+    --input-fg: var(--palette-base5);
+    --topbar-bg: var(--palette-accent2);
+
+    --my-message-bg: var(--palette-base2);
+    --their-message-bg: var(--palette-base3);
+}
+
+body
+{
+    font-family: "Fira Sans", sans-serif;
+    font-size: var(--font-size);
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+header
+{
+    background-color: var(--topbar-bg);
+    height: var(--banner-height);
+    padding-left: calc(var(--banner-height) / 2);
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+
+main
+{
+    background-color: var(--card-bg);
+    height: calc(100% - var(--banner-height));
+    left: var(--nav-width);
+    position: absolute;
+    top: var(--banner-height);
+    width: calc(100% - var(--nav-width));
+}
+
+nav
+{
+    background-color: var(--card-bg);
+    color: var(--card-fg);
+    height: calc(100% - var(--banner-height));
+    position: absolute;
+    top: var(--banner-height);
+    width: var(--nav-width);
+}
+
+nav ul
+{
+    box-sizing: border-box;
+    height: calc(100% - 2.5em);
+    line-height: 1.6em;
+    list-style: none;
+    margin: 0;
+    overflow-y: auto;
+    padding: 0;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+}
+
+nav li
+{
+    cursor: pointer;
+    height: 1.6em;
+    overflow: hidden;
+    padding: 0.25em;
+}
+
+nav li[aria-selected=true] {
+    cursor: default;
+}
+  
+nav li:hover,
+nav li[aria-selected=true] {
+    background: var(--card-fg);
+    color: var(--card-bg);
+    font-weight: bold;
+}
+
+[name=bot]
+{
+    cursor: pointer;
+}
+
+.composition-pane
+{
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
+    border-radius: var(--border-radius);
+    bottom: var(--pane-margin);
+    box-shadow: none;
+    box-sizing: border-box;
+    color: var(--input-fg);
+    font-size: inherit;
+    height: calc(var(--compose-height) - 2 * var(--pane-margin));
+    left: 0;
+    margin: 0;
+    outline: none;
+    padding: var(--message-padding);
+    position: absolute;
+    transition-duration: var(--transition-duration);
+    transition-property: border;
+    width: calc(100% - var(--button-height) - var(--pane-margin));
+    vertical-align: middle;
+}
+
+.composition-pane:focus,
+.composition-pane:hover
+{
+    border-color: var(--input-active);
+}
+
+.composition-send
+{
+    background: var(--input-button-bg);
+    border: 1px solid var(--input-border);
+    border-radius: var(--border-radius);
+    bottom: calc((var(--compose-height) - var(--button-height)) / 2 );
+    box-shadow: none;
+    box-sizing: border-box;
+    color: var(--input-fg);
+    font-family: inherit;
+    font-size: calc(var(--button-height) / 2);
+    height: var(--button-height);
+    outline: none;
+    padding: var(--input-padding);
+    position: absolute;
+    right: 0;
+    transition-duration: var(--transition-duration);
+    transition-property: border;
+    width: var(--button-height);
+    vertical-align: middle;
+}
+
+.composition-send:focus,
+.composition-send:hover
+{
+    border-color: var(--input-active);
+}
+
+.composition-send:active
+{
+    background-color: var(--input-active);
+    border: none;
+}
+
+.composition-send::-moz-focus-inner {
+    border: none;
+  }
+
+.message-heading
+{
+    background-color: var(--card-h-bg);
+    color: var(--card-h-fg);
+    display: block;
+    height: var(--banner-height);
+    margin: 0;
+    padding-top: var(--message-padding);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.message-pane
+{
+    background-color: var(--pane-bg);    
+    height: calc(100% - var(--compose-height) - var(--banner-height));
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: var(--banner-height);
+    width: 100%;
+
+    background: var(--pane-bg);
+    border: solid var(--pane-border);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    border-width: 0px 1px 1px 1px;
+    box-sizing: border-box;
+}
+
+.from-me,
+.from-them
+{
+    padding: var(--message-padding);
+    white-space: pre-line;
+}
+
+.from-me
+{
+    background: var(--my-message-bg);
+    color: var(--card-fg);
+    text-align: right;
+}
+
+.from-them
+{
+    background: var(--their-message-bg);
+    color: var(--card-fg);
+    text-align: left;
+}
