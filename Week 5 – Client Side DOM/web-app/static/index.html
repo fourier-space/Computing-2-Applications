@@ -13,10 +13,13 @@
 <main>
     <h2 id="bot-title" class="message-heading"></h2>
     <section class="message-pane" id="messages">
-
+        <template id="my-message">
             <div name="message" class="from-me">Hello Robot</div>
-
+        </template>
+        
+        <template id="their-message">
             <div name="message" class="from-them">Hello Humon</div>
+        </template>
 
     </section>
     <section>
@@ -28,8 +31,8 @@
 
 <nav>
     <ul id="bot-list" role="listbox" aria-label="Bots online">
-
+        <template id="bot-item">
             <li name="bot" role="option" tabindex="0"> AgreeBot </li>
-
+        </template>
     </ul>
 </nav>
