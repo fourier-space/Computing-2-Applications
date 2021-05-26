@@ -13,7 +13,7 @@ let bot = Robots.reverseBot;
 const bot_list = document.getElementById("bot-list");
 Object.keys(Robots).forEach(function (robot_key) {
     const list_item_template = cloneTemplate("bot-item");
-    const list_item = list_item_template.querySelector("[name=bot]")
+    const list_item = list_item_template.querySelector("[name=bot]");
     list_item.textContent = Robots[robot_key].name;
 
     list_item.onclick = function () {
