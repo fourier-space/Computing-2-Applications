@@ -70,3 +70,12 @@ Add a new bot to `robots.js` and define new behaviour for it.
 **Harder**: For each bot, save the history of the conversation (in `main.js`),
 such that when you change bots, it displays the message history for only that bot,
 and remembers what you said to it last.
+
+## Additional Resources ##
+This video series
+[Web Demystified](https://www.youtube.com/watch?v=O_GWbkXIqEY)
+is a good primer of whats going on with each of the related web technologies.
+
+As is Mozilla's
+[Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+pages on MDN.
