@@ -68,13 +68,12 @@ You will define your own brief and describe it in a proforma
 as part of the submission.
 
 The front-end is a browser based client program that:
-1. allows two or more users to interact concurrently on separate instances.
+1. allows your users to interact with your program.
 
 The back-end is a webserver that:
 1. serves the client program.
 1. interacts with the client via ajax.
 1. processes data received from the client.
-1. communicates with either a permanent data store or external data source.
 
 Your submission will be your code project on GitHub Classroom
 along with the proforma.
@@ -99,11 +98,9 @@ module learning outcomes and are detailed below.
 |  |  | Make use of functional style where applicable, incorporating purity. |
 |  |  | Make use of asynchronous code, i.e. events, callbacks, promises. |
 | **UX/UI** | Define a brief for the project that communicates the intention of the application (proforma). | Present an intuitive interface with suitable controls that communicate their intention. |
-|  |  | Conforms to accessibility standards (e.g WCAG 2.1 AA). |
-| **Data** | Exchange data between client and server programs using json. | Exchange data between a permanent data store or an external data source |
-|  |  | Use functional list manipulation methods (map, reduce, etc.) to manipulate data structures. |
+| **Data** | Exchange data between client and server programs using json. | Use functional list manipulation methods (map, reduce, etc.) to manipulate data structures. |
 | **Debugging** | Describes the identification and resolution of a simple bug. | Documents the identification and resolution of subtle bugs i.e. edge and corner cases in a systematised way. |
-|  | Use of a property-based testing framework. | Property tests are well constructed testing functionality rather than implementation. |
+|  | Use of unit tests for some functionality of the program. | Property tests are well constructed testing functionality rather than implementation. |
 | **Best practice** | Adhere to the *Submission Constaints* below. | Conform to the ‘in-house coding style’ i.e. javascript files pass jslint without error. |
 |  |  | The intention of the code is clear, i.e. by appropriate comments, interface, and naming. |
 |  |  | Project separates structural (html), styling (css), and behavioural (javascript) code. |
