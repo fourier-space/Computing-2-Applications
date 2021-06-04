@@ -5,8 +5,8 @@ const send_button = document.getElementById("send-button");
 const composition = document.getElementById("composition");
 const messages = document.getElementById("messages");
 
-const cloneTemplate = function (id) {
-    return document.importNode(document.getElementById(id).content, true);
+const cloneTemplate = function (identifier) {
+    return document.importNode(document.getElementById(identifier).content, true);
 };
 
 // let bot = Robots.reverseBot;
