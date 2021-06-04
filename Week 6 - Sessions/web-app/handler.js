@@ -1,5 +1,3 @@
-import session from "express-session";
-
 const Handler = Object.create(null);
 
 const contacts = [];
