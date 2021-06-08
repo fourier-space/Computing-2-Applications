@@ -35,6 +35,8 @@ const button_click = function (my_play) {
     );
 
     history_list.append(li);
+
+    // Ajax.query({"type": "play_a_move", "move": my_play});
 };
 
 const ai_play = function () {

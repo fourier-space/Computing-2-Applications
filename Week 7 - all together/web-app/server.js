@@ -1,6 +1,6 @@
 import express from "express";
 import session from "express-session";
-// import Handler from "./handler.js";
+import Handler from "./handler.js";
 
 const port = 8080;
 const app = express();
