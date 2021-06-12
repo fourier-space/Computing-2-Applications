@@ -1,6 +1,7 @@
 import RPS from "./rps.js";
 const Handler = Object.create(null);
 
+const game_length = 10;
 const list_of_games = [];
 
 // game = {
@@ -23,11 +24,12 @@ Handler.ready_to_play = function () {
         const new_game = {
             "id": last_id,
             "full": false,
-            "play_due": (new Date()) + 10000,
+            "play_due": Number(new Date()) + game_length * 1000,
             "player_1_play": "",
             "player_2_play": "",
             "closed": false
         };
+        list_of_games.push(new_game);
         return Promise.resolve(new_game);
     }
     const existing_game = open_vacant_games[0];
@@ -56,7 +58,10 @@ Handler.check_result = function (request_object) {
         game.winner = RPS.play_round(game.player_1_play, game.player_2_play);
         return Promise.resolve(game);
     }
-    return Promise.resolve({"response": game.play_due});
+    return Promise.resolve({
+        "current_time": Number(new Date()),
+        "play_due": game.play_due
+    });
 };
 
 export default Object.freeze(Handler);

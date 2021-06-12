@@ -2,9 +2,10 @@
 const RPS = Object.create(null);
 
 const wins = {
-    "Rock": ["Scissors"],
-    "Scissors": ["Paper"],
-    "Paper": ["Rock"]
+    "": [],
+    "Rock": ["Scissors", ""],
+    "Scissors": ["Paper", ""],
+    "Paper": ["Rock", ""]
 };
 
 /**

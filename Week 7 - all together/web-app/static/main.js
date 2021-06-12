@@ -1,4 +1,6 @@
-import RPS from "./rps.js";
+import Ajax from "./ajax.js";
+
+let game;
 
 const rock_button = document.getElementById("rock_button");
 const paper_button = document.getElementById("paper_button");
@@ -21,25 +23,62 @@ scissors_button.onclick = function () {
 const winner_text = [
     "Game Draw",
     "I Win",
-    "CPU Wins"
+    "Opponent Wins"
 ];
 
 const button_click = function (my_play) {
-    const their_play = ai_play();
-    const winner = RPS.play_round(my_play, their_play);
 
-    const li = document.createElement("li");
+    if (!game || game.closed) {
+        Ajax.query({
+            "type": "ready_to_play"
+        }).then(function (response_game) {
+            game = response_game;
+            const player = (
+                game.full
+                ? 2
+                : 1
+            );
 
-    li.textContent = (
-        `I played ${my_play}, CPU played ${their_play}: ${winner_text[winner]}`
-    );
+            Ajax.query({
+                "type": "play_a_move",
+                "id": game.id,
+                "player": player,
+                "play": my_play
+            });
 
-    history_list.append(li);
+            setTimeout(function () {
+                Ajax.query({
+                    "type": "check_result",
+                    "id": game.id
+                }).then(function (result_game) {
+                    game = result_game;
+                    if (game.closed) {
+                        const li = document.createElement("li");
 
-    // Ajax.query({"type": "play_a_move", "move": my_play});
+                        const final_plays = (
+                            player === 1
+                            ? [game.player_1_play, game.player_2_play]
+                            : [game.player_2_play, game.player_1_play]
+                        );
+
+                        li.textContent = (
+                            `I played ${final_plays[0]}, ` +
+                            `Opponent played ${final_plays[1]}: ` +
+                            `${winner_text[game.winner]}`
+                        );
+
+                        history_list.append(li);
+                    } else {
+
+                    }
+                });
+            }, game.play_due - Number(new Date()));
+        });
+    }
+
 };
 
-const ai_play = function () {
-    const plays = ["Rock", "Paper", "Scissors"];
-    return plays[Math.floor(Math.random() * plays.length)];
-};
+// const ai_play = function () {
+//     const plays = ["Rock", "Paper", "Scissors"];
+//     return plays[Math.floor(Math.random() * plays.length)];
+// };
