@@ -1,7 +1,7 @@
 import RPS from "./rps.js";
 const Handler = Object.create(null);
 
-const game_length = 10;
+const game_length = 5; // seconds
 const list_of_games = [];
 
 // game = {
@@ -58,10 +58,13 @@ Handler.check_result = function (request_object) {
         game.winner = RPS.play_round(game.player_1_play, game.player_2_play);
         return Promise.resolve(game);
     }
-    return Promise.resolve({
-        "current_time": Number(new Date()),
-        "play_due": game.play_due
-    });
+    return Promise.resolve(
+        Object.assign({}, game, {
+            "player_1_play": "",
+            "player_2_play": "",
+            "current_time": Number(new Date())
+        })
+    );
 };
 
 export default Object.freeze(Handler);

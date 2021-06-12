@@ -1,11 +1,13 @@
-import RPS from "../static/rps.js";
+import RPS from "../rps.js";
 import fc from "fast-check";
 import property from "./property.js";
 
-const arbitrary_play = fc.oneof(
-    fc.constant("Rock"),
-    fc.constant("Paper"),
-    fc.constant("Scissors")
+const arbitrary_play = fc.constantFrom(
+    "Rock",
+    "Paper",
+    "Scissors",
+    "Lizard",
+    "Spock"
 );
 
 describe("Rock Paper Scissors Rules", function () {
@@ -25,5 +27,23 @@ describe("Rock Paper Scissors Rules", function () {
 
         }
     );
+
+    property(
+        "If only one player makes a play then that player wins",
+        [arbitrary_play, fc.constantFrom(1, 2)],
+        function (play, player) {
+            if (player === 1) {
+                return RPS.play_round(play, "") === 1;
+            } else {
+                return RPS.play_round("", play) === 2;
+            }
+        }
+    );
+
+    it("If neither player plays, the game is a draw", function () {
+        if (RPS.play_round("", "") !== 0) {
+            throw "Game not drawn when both players make no move";
+        }
+    });
 
 });

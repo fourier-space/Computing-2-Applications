@@ -1,0 +1,11 @@
+body
+{
+    font-family: Fira Sans, Helvetica, Arial, sans-serif;
+}
+
+button,
+#my_play,
+#their_play
+{
+    font-size: 48pt;
+}
