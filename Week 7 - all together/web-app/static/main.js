@@ -52,10 +52,19 @@ const check_result = function () {
                 : [game.player_2_play, game.player_1_play]
             );
 
+            let winner; // Here 1 is me, 2 is opponent.
+            if (game.winner === 0) {
+                winner = 0;
+            } else if (player === 1) {
+                winner = game.winner;
+            } else {
+                winner = 3 - game.winner; // 1 → 2, 2 → 1
+            }
+
             li.textContent = (
                 `I played ${final_plays[0]}, ` +
                 `Opponent played ${final_plays[1]}: ` +
-                `${winner_text[game.winner]}`
+                `${winner_text[winner]}`
             );
 
             history_list.append(li);
