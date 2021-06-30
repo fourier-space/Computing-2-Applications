@@ -1,3 +1,4 @@
+
 const game_2048 = Object.create(null);
 
 // const board = [
@@ -142,6 +143,17 @@ game_2048.right = compose(h_flip, game_2048.left, h_flip);
 
 game_2048.up = compose(transpose, game_2048.left, transpose);
 
+game_2048.up = (board) => transpose(game_2048.left(transpose(board)));
+
+game_2048.down = (board) => transpose(game_2048.right(transpose(board)));
 game_2048.down = compose(transpose, game_2048.right, transpose);
 
 export default Object.freeze(game_2048);
+
+
+game_2048.up([
+    [1, 1, 2, 2],
+    [1, 0, 0, 1],
+    [0, 0, 1, 1],
+    [0, 2, 2, 3]
+]);

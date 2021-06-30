@@ -8,7 +8,7 @@ describe("Reverse", function () {
         fc.assert(fc.property(fc.string(), function (str) {
             const reverseOnce = Reverse.reverse(str);
             const reverseTwice = Reverse.reverse(reverseOnce);
-            return reverseOnce === str;
+            return reverseTwice === str;
         }));
     });
 });
