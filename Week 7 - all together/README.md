@@ -6,5 +6,3 @@
 
 2. Copy in any starter files. server.js static/ajax.js static/index.html
 Create new files for static/main.js, static/default.css
-
-# Think about the problem
