@@ -311,10 +311,8 @@ To link this up to each of your projects, you should install the Mocha node exte
 We can do this globally, or per project. To do it globally run,
 
     Type into the command line:
-* Mac & Linux: `sudo npm install -g mocha fast-check`
-* Windows: `npm install -g mocha fast-check`
-
-You can also do this per project too using the `--save-dev` flag instead of the `-g` flag.
+* Mac & Linux: `npm install --save-dev mocha fast-check`
+* Windows: `npm install --save-dev mocha fast-check`
 
 You'll notice we've also installed *fast-check*,
 which is a property based testing library that we will be using here too.
