@@ -417,19 +417,16 @@ https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adap
 
 Install this extension.
 
-To link this up to each of your projects, you should install the Mocha node extension too.
-We can do this globally, or per project. To do it globally run,
+Once your workspace is set up (below), you will need to do the following for each project:
 
+Install the Mocha node extension.
     Type into the command line:
-* Mac & Linux: `sudo npm install -g mocha fast-check`
-* Windows: `npm install -g mocha fast-check`
-
-You can also do this per project too using the `--save-dev` flag instead of the `-g` flag.
+`npm install --save-dev mocha fast-check`
 
 You'll notice we've also installed *fast-check*,
 which is a property based testing library that we will be using here too.
 
-Once your workspace is set up (below), each project with tests will need a `.mocharc.json` file
+each project with tests will need a `.mocharc.json` file
 to let it know which tests to select.
 Once your workspace is set up. I use the following template.
 ````
