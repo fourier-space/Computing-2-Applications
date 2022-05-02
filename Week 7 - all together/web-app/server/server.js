@@ -1,6 +1,6 @@
 import express from "express";
 import session from "express-session";
-import Handler from "./handler.js";
+import Api from "./api.js";
 
 const port = 8080;
 const app = express();
@@ -11,7 +11,7 @@ app.use(session({
     "saveUninitialized": false
 }));
 
-app.use("/", express.static("web-app/static"));
+app.use("/", express.static("web-app/browser"));
 
 app.use("/", express.json());
 app.post("/", function (req, res) {
@@ -21,7 +21,7 @@ app.post("/", function (req, res) {
         req.session.data = {};
     }
 
-    Handler[request_object.type](request_object, req.session.data).then(
+    Api[request_object.type](request_object, req.session.data).then(
         function (response_object) {
             res.json(response_object);
         }

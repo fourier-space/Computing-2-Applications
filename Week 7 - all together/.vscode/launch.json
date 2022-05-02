@@ -7,20 +7,20 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Webserver",
+            "name": "Server ­– Node",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/web-app/server.js"
+            "program": "${workspaceFolder}/web-app/server/server.js"
         },
         {
-            "name": "fx-dev debug",
+            "name": "Browser – Firefox",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
             "reloadOnAttach": true,
             "url": "http://localhost:8080/index.html",
-            "webRoot": "${workspaceFolder}/web-app/static",
+            "webRoot": "${workspaceFolder}/web-app/browser",
             "preferences": {
               "security.fileuri.strict_origin_policy": false
             }

@@ -1,27 +1,80 @@
-# Computing 2: Applications – Module Handbook – 2020/21
-![Computing 2 Logo](https://raw.githubusercontent.com/fourier-space/Computing-2-Applications/master/handbook/logo.png)
+# Computing 2: Applications – Module Handbook – 2021/22
+![Computing 2 Logo](handbook/logo.png)
 ```json
 {
-    "Version": "2.2.0",
-    "Updated": "2021-05-16"
+    "Version": "3.0.0",
+    "Updated": "2022-04-22"
 }
 ```
 
 ## Teaching staff ##
 ### Module leadership ###
 
-| ![Freddie Page](handbook/Freddie.jpg) | ![Hamed Haddadi](handbook/Hamed.jpg) |
+| ![Freddie Page](handbook/Freddie.jpg) | ![Pietro Ferraro](handbook/Pietro.jpg) |
 |---|---|
-| Dr Freddie Page | Dr Hamed Haddadi |
+| Dr Freddie Page | Dr Pietro Ferraro |
 | Module Leader | Associate Module Leader |
 
 ### Teaching assistants ###
-| ![Leila](handbook/Leila.png) | ![Robert](handbook/Robert.png) | ![Paula](handbook/Paula.png) | ![Thomas](handbook/Thomas.png) |  |
+| ![Max](handbook/Max.png) | ![Cosmin](handbook/Cosmin.png) | ![Amelia](handbook/Amelia.png) | ![Amy](handbook/Amy.png) | ![Sarthak](handbook/Sarthak.png) |
 |---|---|---|---|---|
-| Leila Al‑Azzawi | Robert Field | Paula Castillero Garcia | Thomas Godden | Nadav Grunberg |
-| ![Chris](handbook/Chris.png) | ![Hannah](handbook/Hannah.png) | ![Anna](handbook/Anna.png) | ![Tianxiao](handbook/Tianxiao.png) | |
-| Chris Kalogroulis | Hannah Knight | Anna Soligo | Tianxiao Wang |  |
+| Max Matthews | Cosmin Vonsovici | Amelia Bryant | Amy Walter | Sarthak Das |
+| ![Michela](handbook/Michela.png) | ![Laura](handbook/Laura.png) | ![Jack](handbook/Jack.png) | ![James](handbook/James.png) | |
+| Michela Puglia | Laura Bastos | Jack Beaumont | James Howells |  |
 
+## You Said, We Did – Changes from last year
+In response to student feedback and to improve the module,
+the following changes have been made from last year.
+
+### Constrained submission – Game
+Students had found the assignment brief too open ended previously.
+This made it difficult to know where to start.
+The brief is now a game (details below),
+which will make it easier to target the assessment criteria of the module.
+
+### Structured submission
+Common feedback from last year was that it was difficult to know how to get started.
+This year the submission is sectioned into separate parts,
+Game Module (API and Implementation), Unit Tests (Specification and Implementation), and Web App.
+This will assist in getting started on the project,
+but also train good practices in structuring of your software project.
+The module's assessment criteria have been rewritten for this new structure.
+
+### Example coursework
+Students often ask for a previous example of a coursework submission,
+it can be difficult to provide this as there are changes to the submission requirements from year to year.
+So I've prepared an
+[example submission](
+https://github.com/fourier-space/zombie-siege
+)
+that fits this year's requirements.
+
+
+### Reduced Scope
+This is a one-term module in computing and web applications.
+There's lots of exciting further directions you can go in
+following on from this module, including: Generative Property Based Testing, Databases, External APIs, Sessions, etc.
+These used to be part of the coursework brief, but are no longer so.
+You're welcome to explore these and chat to me about them,
+but they're no longer part of the *Excellent (A)* criteria,
+and we won't cover them in the taught sessions.
+The server side aspect of a web app is still included but its scope is reduced to the client's interactions with a server.
+
+### Starter Code
+The directory structure of a web app can get complicated.
+There's lots of configuration files for different parts of the tooling,
+as well as directories for different aspects of the app.
+I provide starter code for your submission that sets this up with sensible defaults.
+Submissible webserver code is also included that can form part of your web app.
+This is automatically copied when you create your submission repository on GitHub Classroom,
+[but the template can also be found here.](
+https://github.com/fourier-space/Computing-2-Submission-Template
+)
+
+### Peer Assessment
+Peer assessment has run every year, and has been very useful to the students who have participated.
+Previously this has been formative only,
+but to encourage engagement, bonus credit is available for participation.
 
 ## Module descriptor ##
 **From the module specification:**
@@ -57,28 +110,39 @@ Debug their own programs, identifying, documenting, and solving software bugs.
 Engage with industry/professional best practice in managing a coding project.
 
 ### Assignment brief ###
-The deliverable you will produce for this module is a web app
-with a client-server architecture.
+The assignment is to produce a web app for a
+*"Turn-based"* *"Board-based"* *"Game"* of your choosing.
+(In quotes as you can loosely or strictly interpret each of these terms.)
 
-The brief for what the app should do is open,
-so long as it can target the assessment criteria meaningfully –
-i.e. features implemented for this purpose are essential for the program
-and can't trivially be refactored out.
-You will define your own brief and describe it in a proforma
-as part of the submission.
+Your submission will have a number of separately assessed components.
+#### Game Module – API ####
+You will produce an
+<abbr title="Application Programming Interface">API</abbr>
+specification,
+i.e. a list of function names and their signatures,
+for a Javascript module
+that represents the state of your game and the operations
+you can perform on it that advances the game or provides information.
 
-The front-end is a browser based client program that:
-1. allows your users to interact with your program.
+#### Game Module – Implementation ####
+You will implement, in Javascript, the module you specified above.
+Such that your game can be simulated in code, e.g. in the debug console.
 
-The back-end is a webserver that:
-1. serves the client program.
-1. interacts with the client via ajax.
-1. processes data received from the client.
+#### Unit Tests – Specification ####
+For the Game module API you have produced,
+write a set of unit tests descriptions that specify the expected behaviour of one aspect of your API,
+e.g. you might pick the win condition, or how the state changes when a move is made.
 
-Your submission will be your code project on GitHub Classroom
-along with the proforma.
+#### Unit Tests – Implementation ####
+Implement in code the unit tests specified above.
 
-**Deadline Friday 18th June 16:00**
+#### Web Application ####
+Produce a web application that allows a user to interface with your
+game module.
+
+![Submission structure](handbook/submission_map.png)
+
+**Deadline Friday 24th June 16:00**
 
 ### Learning and teaching strategy ###
 This is a project based learning module with a
@@ -90,54 +154,100 @@ final deliverable that students will frame to their own interests and ideas.
 The assessment criteria are linked directly to the
 module learning outcomes and are detailed below.
 
-### Assessment criteria ###
+### Assessment criteria
+Assessment criteria are split into the five submission components.
+For each, there is a *Passing Criterion* that must be met.
+The other criteria are *Excellent Criteria*,
+which will the grade of each component by how many are met.
 
-| Criterion | Pass (D) | Excellent (A) |
-|---|---|---|
-| **Coding** | Produce a back-end server that serves a client program. | Project is appropriately structured into interacting components and modules. |
-|  |  | Make use of functional style where applicable, incorporating purity. |
-|  |  | Make use of asynchronous code, i.e. events, callbacks, promises. |
-| **UX/UI** | Define a brief for the project that communicates the intention of the application (proforma). | Present an intuitive interface with suitable controls that communicate their intention. |
-| **Data** | Exchange data between client and server programs using json. | Use functional list manipulation methods (map, reduce, etc.) to manipulate data structures. |
-| **Debugging** | Describes the identification and resolution of a simple bug. | Documents the identification and resolution of subtle bugs i.e. edge and corner cases in a systematised way. |
-|  | Use of unit tests for some functionality of the program. | Property tests are well constructed testing functionality rather than implementation. |
-| **Best practice** | Adhere to the *Submission Constaints* below. | Conform to the ‘in-house coding style’ i.e. javascript files pass jslint without error. |
-|  |  | The intention of the code is clear, i.e. by appropriate comments, interface, and naming. |
-|  |  | Project separates structural (html), styling (css), and behavioural (javascript) code. |
+#### Game Module – API
+* **Passing:** Documents an API for a Javascript module.
+* Has a suitable range of functions relevant to the domain at hand.
+* The functions are documented primarily in terms of their domain rather than their implementation.
+* API is clear to follow and understand.
+* Appropriate function signatures, e.g. parameters, order, and return types.
+* Good use of the tooling (jsdoc)
 
-| Assessment Criteria are marked as: |  |
+#### Game Module – Implementation
+* **Passing:** API is implemented in code as described.
+* Implementation is efficiently coded.
+* Implementation is mostly free of bugs.
+* Functions in the game module are pure functions.
+* Appropriate use of functional patterns, e.g composition, map, filter, reduce, partial application, recursion, etc.
+* Javascript source code passes linter (jslint) without error.
+
+#### Unit Tests – Specification
+* **Passing:** Define a set of tests relevant to the domain at hand.
+* Define a Suitable range of tests. These can be limited to one aspect, e.g. the win condtion or the the response to a move.
+* Tests are for behaviour rather than implementation.
+* Descriptors for tests are well written, e.g. making use of the Given..When..Then triple where appropriate.
+
+#### Unit Tests – Implementation
+* **Passing:** Tests are implemented as specified to examine the module under test.
+* Tests are not a re-implementation of the code under test.
+* Tests fail in a way that provides useful context to identify the bug.
+* Test failure modes should be reachable with some particular failing implementation. *"Never trust a test you haven't seen fail."*
+
+#### Web Application
+* **Passing:** Provides a web browser based user interface for the chosen game.
+* User interface is clean and intuitive.
+* Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)
+* Handles an Ajax interaction with the server using promises.
+* Project separates structural (html), styling (css), and behavioural (javascript) code.
+
+Components will be marked as:
+|  |  |
 |---|---|
-| **Fail (F)** | if the work does not meet **all** the points of the Pass (D) descriptor. |
-| **Pass (D)** | if the work meets all the points of the Pass (D) descriptor, but doesn't qualify for any higher grade. |
-| **Good (C)** | if the work meets all the points of the Pass (D) descriptor, and **some** of the points of the Excellent (A) descriptor. |
-| **Very Good (B)** | if the work meets all the points of the Pass (D) descriptor, and **most** of the points of the Excellent (A) descriptor. |
-| **Excellent (A)** | if the work meets **all** of the points of the Excellent (A) descriptor. |
+| **Fail (F)** | if the work does not meet the *Passing Criterion*. |
+| **Pass (D)** | if the work meets the *Passing Criterion*, but doesn't qualify for any higher grade. |
+| **Good (C)** | if the work meets the *Passing Criterion*, and **some** of the *Excellent criteria.* |
+| **Very Good (B)** | if the work meets the *Passing Criterion*, and **most** of the *Excellent Criteria*. |
+| **Excellent (A)** | if the work meets the *Passing Criterion*, and **all** of the *Excellent Criteria*. |
 | **Exceptional (A٭)** | if the work meets all of the points of the Excellent (A) descriptor and is a level of quality higher than what would usually be expected for Excellent (A) work. |
 
-Additionally, a further 5% bonus may be awarded at the discretion of the module leader for good citizenship in answering and asking questions, helping others, etc.
+#### Overall Mark
 
-### Submission Constraints ###
+The overall mark will be determined by the component grades in an expected ratio of:
+* 1 / 3 – Game Module (API + Implementation)
+* 1 / 3 – Unit Tests (Specification + Implementation)
+* 1 / 3 – Web Application
+
+#### Additional Credit
+Additional credit on top of the overall mark may be awarded for,
+* Participation in peer assessment. **(+2.5%)**
+* Produces useful peer assessment feedback **(+2.5%)**
+* Good Citizenship – at the discretion of the module leader – for continuous efforts in support of the academic community, e.g. assisting other, answering and asking questions **(+5%)**
+
+A **5%** penalty may be applied if the submission requirements aren't adhered to and this leads to problems in opening or running the submission for assessment.
+
+### Submission Requirements ###
 Your submission must also conform to the following:
 
-1. Your coding project must be written in Javascript for the server side component to be run on Node.js (14+).
-2. You can only make use of the following external modules: `express`, `express-session`, `nedb`, `fast-check`, `mocha`.
-3. Your webserver must be hosted on port `8080`, with the main page accessible at http://localhost:8080/.
-4. The structure of you project should be that there is a `web-app` directory at the top level of your repository. Within this is a `server.js` which will be the main file that is run.
+1. Your coding project must be written in Javascript for the server side component to be run on Node.js (16+)
+1. Your direectory structure must match the provided template. i.e.
+    * there is a `web-app` directory at the top level of your repository.
+    * This contains `server`, `browser`, `common`, and `tests` subdirectories.
+    * Within `/web-app/server` there is a `server.js` which will be the main file that is run.
+1. Any additional packages that you use must be installable from `npm` and must install and run cross-platform (i.e on the examiners' computers). **Speak with me in advance if you are doing anything out of the ordinary here.**
+1. Do not upload packages files (i.e. `/node_modules/`) to your repository. The `.gitignore` file will filter these out for you.
+1. Your webserver must be hosted on port `8080`, with the main page accessible at http://localhost:8080/.
 
-## Online learning ##
+Each of these will be automatic if you follow the provided submission template.
+
+## In Person and Online learning ##
+This module will be delivered **in-person** in the Dyson Building Level 3.
+Check your timetable for session times.
+
 We’ll be using a variety of online learning tools,
 some you will have used before.
 
 ### Timetabled sessions – Microsoft Teams ###
-[MS Teams](https://teams.microsoft.com/l/channel/19%3a4690d55197304cb5810b2775109d7070%40thread.tacv2/General?groupId=360a72a3-35c9-421b-b6d0-da57998a0bbc&tenantId=2b897507-ee8c-4575-830b-4f8267c3d307)
+[MS Teams](https://teams.microsoft.com/l/team/19%3aKlZPWfW04pEOUo7T2fbY7QMF1IYhZrAGEGhSrtUXq4k1%40thread.tacv2/conversations?groupId=589bb1bf-7a20-474e-aa73-dbc666ec3bda&tenantId=2b897507-ee8c-4575-830b-4f8267c3d307)
 
-The timetabled sessions in this module will be done on Teams.
+The timetabled sessions in this module will be live-broadcast on Teams.
 I’ve set up a number of different rooms, The main room – General,
 and a number of Tutor rooms, one for each Teaching Assistant,
 You will be assigned to one of these to have support form one of our UTAs.
-The main sessions will be in the General room as timetabled,
-On Mondays and Tuesdays most weeks, and Friday in W1, W2, W5 for the Bank Holidays
-Tutorial Sessions are on Wednesdays in Weeks 2–7 and Tuesday in Week 8.
 
 ### Catch up – Panopto, Google Drive ###
 [Panopto Folder](https://imperial.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2286571568-a454-4fc4-8f39-ac0100c8c407%22) • [Google Drive Folder](https://drive.google.com/drive/folders/11I-F3Lpnky5JvK1najLjOeKHpkUJEVR9?usp=sharing)
@@ -192,7 +302,7 @@ It additionally comes with a package manager, npm (Node Package Manager),
 which we will use to install some dependencies for some of the extensions below.
 It also provides an interactive shell for quick testing of javascript snippets.
 
-Download and install the LTS version (i.e. 14.) of node from
+Download and install the LTS version (i.e. 16.) of node from
 https://nodejs.org/en/
 
 To test the Node.js has installed correctly:
@@ -381,5 +491,4 @@ https://grumpy.website/
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
-* 2.0.0: Initial release for 2020/21.
-* 2.1.0: Released assessment criteria.
+* 3.0.0: Initial release for 2021/22.

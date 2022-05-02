@@ -1,5 +1,5 @@
 import RPS from "./rps.js";
-const Handler = Object.create(null);
+const Api = Object.create(null);
 
 const game_length = 5; // seconds
 const list_of_games = [];
@@ -15,7 +15,7 @@ const list_of_games = [];
 
 let last_id = 0;
 
-Handler.ready_to_play = function () {
+Api.ready_to_play = function () {
     const open_vacant_games = list_of_games.filter(
         (game) => !game.closed && !game.full
     );
@@ -37,7 +37,7 @@ Handler.ready_to_play = function () {
     return Promise.resolve(existing_game);
 };
 
-Handler.play_a_move = function (request_object) {
+Api.play_a_move = function (request_object) {
     const game = list_of_games.find((g) => g.id === request_object.id);
     if (request_object.player === 1) {
         game.player_1_play = request_object.play;
@@ -48,7 +48,7 @@ Handler.play_a_move = function (request_object) {
     return Promise.resolve({"response": "success"});
 };
 
-Handler.check_result = function (request_object) {
+Api.check_result = function (request_object) {
     const game = list_of_games.find((g) => g.id === request_object.id);
     if (game.closed) {
         return Promise.resolve(game);
@@ -67,4 +67,4 @@ Handler.check_result = function (request_object) {
     );
 };
 
-export default Object.freeze(Handler);
+export default Object.freeze(Api);

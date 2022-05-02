@@ -1,4 +1,4 @@
-import RPS from "../rps.js";
+import RPS from "../server/rps.js";
 import fc from "fast-check";
 import property from "./property.js";
 
