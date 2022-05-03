@@ -3,7 +3,7 @@
 ```json
 {
     "Version": "3.0.0",
-    "Updated": "2022-04-22"
+    "Updated": "2022-05-03"
 }
 ```
 
@@ -214,8 +214,8 @@ The overall mark will be determined by the component grades in an expected ratio
 
 #### Additional Credit
 Additional credit on top of the overall mark may be awarded for,
-* Participation in peer assessment. **(+2.5%)**
-* Produces useful peer assessment feedback **(+2.5%)**
+* Providing feedback in peer assessment. **(+2.5%)**
+* Peer assessment feedback being useful. **(+2.5%)**
 * Good Citizenship – at the discretion of the module leader – for continuous efforts in support of the academic community, e.g. assisting other, answering and asking questions **(+5%)**
 
 A **5%** penalty may be applied if the submission requirements aren't adhered to and this leads to problems in opening or running the submission for assessment.
@@ -244,16 +244,15 @@ some you will have used before.
 ### Timetabled sessions – Microsoft Teams ###
 [MS Teams](https://teams.microsoft.com/l/team/19%3aKlZPWfW04pEOUo7T2fbY7QMF1IYhZrAGEGhSrtUXq4k1%40thread.tacv2/conversations?groupId=589bb1bf-7a20-474e-aa73-dbc666ec3bda&tenantId=2b897507-ee8c-4575-830b-4f8267c3d307)
 
-The timetabled sessions in this module will be live-broadcast on Teams.
-I’ve set up a number of different rooms, The main room – General,
-and a number of Tutor rooms, one for each Teaching Assistant,
-You will be assigned to one of these to have support form one of our UTAs.
+The timetabled sessions in this module will be delivered in person and live-broadcast on Teams.
+The usual format will be 1h of plenary followed by 1h of tutorial sessions.
+Each of you will be assigned a table with a teaching assistant where you can bounce ideas off each other.
+I’ve set up a the groups on teams as an additional space for your table.
 
-### Catch up – Panopto, Google Drive ###
-[Panopto Folder](https://imperial.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2286571568-a454-4fc4-8f39-ac0100c8c407%22) • [Google Drive Folder](https://drive.google.com/drive/folders/11I-F3Lpnky5JvK1najLjOeKHpkUJEVR9?usp=sharing)
-Timetabled sessions in the main room will be recorded.
-After the session I will upload these to Panopto.
-The lecture slides will be made available on Google Drive and Blackboard.
+### Catch up – Teams, Google Drive ###
+[Google Drive Folder](https://drive.google.com/drive/folders/1Pf-KkYV0EMx2hnFxCldAQNMSjDIDM9pN?usp=sharing)
+
+The lecture slides will be made available on Google Drive.
 
 ### Code repository – GitHub ###
 It is also where all the code examples that I use in the timetabled sessions
@@ -262,17 +261,18 @@ will be linked on github.
 ### Code submission – GitHub Classroom ###
 Github Classroom will be used for you to submit your project at the end of term.
 To access github classroom, you will need to link your to your GitHub account.
-Follow the links on [Blackboard](https://bb.imperial.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_1809624_1&course_id=_23581_1) for the assignment and link your account to your
+Follow the links on [Blackboard](https://bb.imperial.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_2332182_1&course_id=_31783_1) for the assignment and link your account to your
 name then fork your repository.
 
 ### Resource repository – Blackboard ###
-[Blackboard course page](https://bb.imperial.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_1809624_1&course_id=_23581_1)
+[Blackboard course page](https://bb.imperial.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_2332182_1&course_id=_31783_1)
 
 Links to all this, and access to some of the tools will be on Blackboard.
 
 ## Peer assessment ##
 In this module, you will have the opportunity to engage in peer assessment.
-This is a formative exercise, i.e. carries no credit.
+This is a formative exercise,
+but participation will gain 2.5% extra credit for participating and providing feedback, and an extra 2.5% for is that feedback was useful.
 
 For the peer assessment you will submit a draft version of your final project
 on Github Classroom and you will be paired anonymously with another student
@@ -357,31 +357,7 @@ Firefox: Keep Profile Changes to true.
 Firefox: Profile to dev-edition-default
 ```
 Each workspace folder in vscode has its own debugger settings. This is set in the .vscode/launch.json file. 
-First start a new workspace if you’re not already in one.
-In the Explorer tab, click “Open Folder” and either make a new folder.
-Make a new empty file, i.e. index.html
-To access this, go to the Run panel from the sidebar, and then click the gear (Open Launch.json) icon.
-
-The following configuration is good to start:
-```
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "fx-dev debug",
-      "type": "firefox",
-      "request": "launch",
-      "reAttach": true,
-      "reloadOnAttach": true,
-      "url": "http://localhost:8080/index.html",
-      "webRoot": "${workspaceFolder}/web-app/static",
-      "preferences": {
-        "security.fileuri.strict_origin_policy": false
-      }
-    }
-  ]
-}
-```
+A default launch.json is provided.
 
 #### JSLint extension ####
 The house style for your projects will be that they pass JSLint without error (https://jslint.com/help.html).
