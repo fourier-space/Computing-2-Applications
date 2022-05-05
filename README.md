@@ -385,6 +385,16 @@ Configure the extension settings, add the following to settings.json
 }
 ```
 
+### JSDoc
+We'll be using a tool called
+JSDoc
+to build documentation for our code.
+This can be installed globally with npm.
+    Type into the command line:
+* Mac & Linux: `sudo npm install -g jsdoc`
+* Windows: `npm install -g jsdoc`
+
+
 #### Mocha Test Explorer ####
 Just like in Python we are going to use unit tests to help to write code free of errors.
 The framework we will use in Javascript is Mocha.
@@ -393,16 +403,7 @@ https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adap
 
 Install this extension.
 
-Once your workspace is set up (below), you will need to do the following for each project:
-
-Install the Mocha node extension.
-    Type into the command line:
-`npm install --save-dev mocha fast-check`
-
-You'll notice we've also installed *fast-check*,
-which is a property based testing library that we will be using here too.
-
-each project with tests will need a `.mocharc.json` file
+Each project with tests will need a `.mocharc.json` file
 to let it know which tests to select.
 Once your workspace is set up. I use the following template.
 ````
@@ -430,8 +431,7 @@ Edit this file to add your CID**.
 #### Module Repository ####
 The repository that this handbook is in is
 [fourier-space/Computing-2-Applications](https://github.com/fourier-space/Computing-2-Applications)
-It is also the repository that hosts the weekly exercises, which will be released progressively.
-In the next step we will link both repos to a VSCode folder.
+There are other repositories for each week's code, these will be released progressively.
 
 ### VSCode Workspace ###
 We need to make a workspace for the activities that we will be doing this term.
