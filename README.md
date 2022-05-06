@@ -2,8 +2,8 @@
 ![Computing 2 Logo](handbook/logo.png)
 ```json
 {
-    "Version": "3.0.0",
-    "Updated": "2022-05-03"
+    "Version": "3.0.1",
+    "Updated": "2022-05-06"
 }
 ```
 
@@ -258,6 +258,8 @@ The lecture slides will be made available on Google Drive.
 It is also where all the code examples that I use in the timetabled sessions
 will be linked on github.
 
+* [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
+
 ### Code submission – GitHub Classroom ###
 Github Classroom will be used for you to submit your project at the end of term.
 To access github classroom, you will need to link your to your GitHub account.
@@ -294,6 +296,11 @@ You will receive your feedback on Thursday in time for you to reflect on it for
 the final submission.
 
 ## Environment setup instructions ##
+### Checklist ###
+The [Week 1](https://github.com/fourier-space/Computing-2-Week-1) Repository
+has a checklist for the items below, and also allows you to test that your setup
+is working correctly.
+
 ### Node.js ###
 Node.js is a platform for server-side javascript applications.
 It is based on the V8 Engine found in Google Chrome with additional libraries
@@ -464,4 +471,5 @@ https://grumpy.website/
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
+* 3.0.1: Links to [Week 1](https://github.com/fourier-space/Computing-2-Week-1) Repo.
 * 3.0.0: Initial release for 2021/22.
