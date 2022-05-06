@@ -336,7 +336,7 @@ platform!
 
 Download and install from https://www.mozilla.org/en-GB/firefox/developer/
 Configure Firefox Developer Edition – Important!
-Navigate to about:config in the address bar.
+Navigate to `about:config` in the address bar.
 Find the `security.fileuri.strict_origin_policy` property and set it to `false`.
 
 #### axe - Web Accessibility Testing ####
@@ -438,6 +438,11 @@ Edit this file to add your CID**.
 #### Module Repository ####
 The repository that this handbook is in is
 [fourier-space/Computing-2-Applications](https://github.com/fourier-space/Computing-2-Applications)
+
+I will occasionally produce suplmementary notes, that I will direct you to,
+These can be found here:
+[fourier-space/Computing-2-Notes](https://github.com/fourier-space/Computing-2-Notes)
+
 There are other repositories for each week's code, these will be released progressively.
 
 ### VSCode Workspace ###
