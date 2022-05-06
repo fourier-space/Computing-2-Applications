@@ -313,7 +313,7 @@ Download and install the LTS version (i.e. 16.) of node from
 https://nodejs.org/en/
 
 To test the Node.js has installed correctly:
-Type `$ node -v` Into a terminal
+Type `node -v` Into a terminal
 
 ### Firefox Developer Edition ###
 It is good practice to use a separate browser dedicated to web development.
