@@ -2,10 +2,13 @@
 ![Computing 2 Logo](handbook/logo.png)
 ```json
 {
-    "Version": "3.0.1",
-    "Updated": "2022-05-06"
+    "Version": "3.0.2",
+    "Updated": "2022-05-11"
 }
 ```
+## Weekly Repositories
+* [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
+* [Week 2](https://github.com/fourier-space/Computing-2-Week-2)
 
 ## Teaching staff ##
 ### Module leadership ###
@@ -258,8 +261,6 @@ The lecture slides will be made available on Google Drive.
 It is also where all the code examples that I use in the timetabled sessions
 will be linked on github.
 
-* [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
-
 ### Code submission – GitHub Classroom ###
 Github Classroom will be used for you to submit your project at the end of term.
 To access github classroom, you will need to link your to your GitHub account.
@@ -476,5 +477,6 @@ https://grumpy.website/
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
+* 3.0.2: Repositories will now be at the top of the page.
 * 3.0.1: Links to [Week 1](https://github.com/fourier-space/Computing-2-Week-1) Repo.
 * 3.0.0: Initial release for 2021/22.
