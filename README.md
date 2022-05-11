@@ -360,7 +360,6 @@ Make sure Firefox Developer Edition is installed (above)
 Install the Debugger for Firefox extension for VSCode https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
 Configure the extension settings, and set:
 ```
-Firefox: Executable to the path to Firefox Developer Edition
 Firefox: Keep Profile Changes to true.
 Firefox: Profile to dev-edition-default
 ```
@@ -384,13 +383,16 @@ Globally install the JSLint npm package
 Install the JSLint extension for VSCode https://marketplace.visualstudio.com/items?itemName=ajhyndman.jslint
 Configure the extension settings, add the following to settings.json
 ```
-"jslint.version": "es6",
-"jslint.options": {
-    "browser": true,
-    "devel": true,
-    "node": true,
-    "predef": ["describe", "it"]
-}
+    "jslint.version": "es6",
+    "jslint.options": {
+        "browser": true,
+        "devel": true,
+        "node": true,
+        "predef": ["describe", "it"]
+    },
+    "jslint.exclude": {
+        "**/node_modules/**": true
+    }
 ```
 
 ### JSDoc
