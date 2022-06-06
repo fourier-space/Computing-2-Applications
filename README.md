@@ -164,7 +164,8 @@ The other criteria are *Excellent Criteria*,
 which will the grade of each component by how many are met.
 
 #### Game Module – API
-* **Passing:** Documents an API for a Javascript module.
+* **Passing:**
+  * Documents an API for a Javascript module.
 * **Excellent:**
   * Has a suitable range of functions relevant to the domain at hand.
   * The functions are documented primarily in terms of their domain rather than their implementation.
@@ -173,7 +174,8 @@ which will the grade of each component by how many are met.
   * Good use of the tooling (jsdoc)
 
 #### Game Module – Implementation
-* **Passing:** API is implemented in code as described.
+* **Passing:**
+  * API is implemented in code as described.
 * **Excellent:**
   * Implementation is efficiently coded.
   * Implementation is mostly free of bugs.
@@ -182,21 +184,24 @@ which will the grade of each component by how many are met.
   * Javascript source code passes linter (jslint) without error.
 
 #### Unit Tests – Specification
-* **Passing:** Define a set of tests relevant to the domain at hand.
+* **Passing:**
+  * Define a set of tests relevant to the domain at hand.
 * **Excellent:**
   * Define a Suitable range of tests. These can be limited to one aspect, e.g. the win condtion or the the response to a move.
   * Tests are for behaviour rather than implementation.
   * Descriptors for tests are well written, e.g. making use of the Given..When..Then triple where appropriate.
 
 #### Unit Tests – Implementation
-* **Passing:** Tests are implemented as specified to examine the module under test.
+* **Passing:**
+  * Tests are implemented as specified to examine the module under test.
 * **Excellent:**
   * Tests are not a re-implementation of the code under test.
   * Tests fail in a way that provides useful context to identify the bug.
   * Test failure modes should be reachable with some particular failing implementation. *"Never trust a test you haven't seen fail."*
 
 #### Web Application
-* **Passing:** Provides a web browser based user interface for the chosen game.
+* **Passing:**
+  * Provides a web browser based user interface for the chosen game.
 * **Excellent:**
   * User interface is clean and intuitive.
   * Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)
