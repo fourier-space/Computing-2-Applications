@@ -9,6 +9,8 @@
 ## Weekly Repositories
 * [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
 * [Week 2](https://github.com/fourier-space/Computing-2-Week-2)
+* [Week 3](https://github.com/fourier-space/Computing-2-Week-3)
+* [Week 4 & 5](https://github.com/fourier-space/Computing-2-Week-4)
 
 ## Teaching staff ##
 ### Module leadership ###
