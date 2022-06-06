@@ -165,38 +165,43 @@ which will the grade of each component by how many are met.
 
 #### Game Module – API
 * **Passing:** Documents an API for a Javascript module.
-* Has a suitable range of functions relevant to the domain at hand.
-* The functions are documented primarily in terms of their domain rather than their implementation.
-* API is clear to follow and understand.
-* Appropriate function signatures, e.g. parameters, order, and return types.
-* Good use of the tooling (jsdoc)
+* **Excellent:**
+  * Has a suitable range of functions relevant to the domain at hand.
+  * The functions are documented primarily in terms of their domain rather than their implementation.
+  * API is clear to follow and understand.
+  * Appropriate function signatures, e.g. parameters, order, and return types.
+  * Good use of the tooling (jsdoc)
 
 #### Game Module – Implementation
 * **Passing:** API is implemented in code as described.
-* Implementation is efficiently coded.
-* Implementation is mostly free of bugs.
-* Functions in the game module are pure functions.
-* Appropriate use of functional patterns, e.g composition, map, filter, reduce, partial application, recursion, etc.
-* Javascript source code passes linter (jslint) without error.
+* **Excellent:**
+  * Implementation is efficiently coded.
+  * Implementation is mostly free of bugs.
+  * Functions in the game module are pure functions.
+  * Appropriate use of functional patterns, e.g composition, map, filter, reduce, partial application, recursion, etc.
+  * Javascript source code passes linter (jslint) without error.
 
 #### Unit Tests – Specification
 * **Passing:** Define a set of tests relevant to the domain at hand.
-* Define a Suitable range of tests. These can be limited to one aspect, e.g. the win condtion or the the response to a move.
-* Tests are for behaviour rather than implementation.
-* Descriptors for tests are well written, e.g. making use of the Given..When..Then triple where appropriate.
+* **Excellent:**
+  * Define a Suitable range of tests. These can be limited to one aspect, e.g. the win condtion or the the response to a move.
+  * Tests are for behaviour rather than implementation.
+  * Descriptors for tests are well written, e.g. making use of the Given..When..Then triple where appropriate.
 
 #### Unit Tests – Implementation
 * **Passing:** Tests are implemented as specified to examine the module under test.
-* Tests are not a re-implementation of the code under test.
-* Tests fail in a way that provides useful context to identify the bug.
-* Test failure modes should be reachable with some particular failing implementation. *"Never trust a test you haven't seen fail."*
+* **Excellent:**
+  * Tests are not a re-implementation of the code under test.
+  * Tests fail in a way that provides useful context to identify the bug.
+  * Test failure modes should be reachable with some particular failing implementation. *"Never trust a test you haven't seen fail."*
 
 #### Web Application
 * **Passing:** Provides a web browser based user interface for the chosen game.
-* User interface is clean and intuitive.
-* Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)
-* Handles an Ajax interaction with the server using promises.
-* Project separates structural (html), styling (css), and behavioural (javascript) code.
+* **Excellent:**
+  * User interface is clean and intuitive.
+  * Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)
+  * Handles an Ajax interaction with the server using promises.
+  * Project separates structural (html), styling (css), and behavioural (javascript) code.
 
 Components will be marked as:
 |  |  |
