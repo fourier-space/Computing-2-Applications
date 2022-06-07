@@ -2,8 +2,8 @@
 ![Computing 2 Logo](handbook/logo.png)
 ```json
 {
-    "Version": "3.0.2",
-    "Updated": "2022-05-11"
+    "Version": "3.0.3",
+    "Updated": "2022-06-07"
 }
 ```
 ## Weekly Repositories
@@ -491,6 +491,7 @@ https://grumpy.website/
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
+* 3.0.3: Repo links and clearer excellent assessment criteria.
 * 3.0.2: Repositories will now be at the top of the page.
 * 3.0.1: Links to [Week 1](https://github.com/fourier-space/Computing-2-Week-1) Repo.
 * 3.0.0: Initial release for 2021/22.
