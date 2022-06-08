@@ -284,8 +284,8 @@ name then fork your repository.
 
 Links to all this, and access to some of the tools will be on Blackboard.
 
-## Peer assessment ##
-In this module, you will have the opportunity to engage in peer assessment.
+## Peer review ##
+In this module, you will have the opportunity to engage in peer review.
 This is a formative exercise,
 but participation will gain 2.5% extra credit for participating and providing feedback, and an extra 2.5% for is that feedback was useful.
 
@@ -305,7 +305,7 @@ Peer assessment will happen in Week 7.
 In the week, you will have time to prepare your draft submission for
 assessment, and will have time to assess and write
 feedback for your assigned project.
-You will receive your feedback on Thursday in time for you to reflect on it for
+You will receive your feedback in time for you to reflect on it for
 the final submission.
 
 ## Environment setup instructions ##
