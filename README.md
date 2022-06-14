@@ -206,8 +206,8 @@ which will the grade of each component by how many are met.
   * Provides a web browser based user interface for the chosen game.
 * **Excellent:**
   * User interface is clean and intuitive.
-  * ~~Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)
-  * ~~Handles an Ajax interaction with the server using promises.
+  * ~~Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)~~
+  * ~~Handles an Ajax interaction with the server using promises.~~
   * Project separates structural (html), styling (css), and behavioural (javascript) code.
 
 Components will be marked as:
