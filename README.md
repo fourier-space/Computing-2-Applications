@@ -2,15 +2,16 @@
 ![Computing 2 Logo](handbook/logo.png)
 ```json
 {
-    "Version": "3.1.0",
-    "Updated": "2022-06-14"
+    "Version": "3.1.1",
+    "Updated": "2022-06-20"
 }
 ```
 ## Weekly Repositories
 * [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
 * [Week 2](https://github.com/fourier-space/Computing-2-Week-2)
 * [Week 3](https://github.com/fourier-space/Computing-2-Week-3)
-* [Week 4 & 5](https://github.com/fourier-space/Computing-2-Week-4)
+* [Week 4, 5, 6](https://github.com/fourier-space/Computing-2-Week-4)
+* [Week 7](https://github.com/fourier-space/Computing-2-Week-7)
 
 ## Teaching staff ##
 ### Module leadership ###
@@ -491,6 +492,7 @@ https://grumpy.website/
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
 
 ## Change log ##
+* 3.1.1: Link to W7 Repo.
 * 3.1.0: Remove two assessment criteria from excellent descriptor.
 * 3.0.3: Repo links and clearer excellent assessment criteria.
 * 3.0.2: Repositories will now be at the top of the page.
