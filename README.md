@@ -1,17 +1,11 @@
-# Computing 2: Applications – Module Handbook – 2021/22
+# Computing 2: Applications – Module Handbook – 2022/23
 ![Computing 2 Logo](handbook/logo.png)
 ```json
 {
-    "Version": "3.1.1",
-    "Updated": "2022-06-20"
+    "Version": "4.-1.0",
+    "Updated": "2023-04-25"
 }
 ```
-## Weekly Repositories
-* [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
-* [Week 2](https://github.com/fourier-space/Computing-2-Week-2)
-* [Week 3](https://github.com/fourier-space/Computing-2-Week-3)
-* [Week 4, 5, 6](https://github.com/fourier-space/Computing-2-Week-4)
-* [Week 7](https://github.com/fourier-space/Computing-2-Week-7)
 
 ## Teaching staff ##
 ### Module leadership ###
