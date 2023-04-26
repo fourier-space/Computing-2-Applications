@@ -1,5 +1,4 @@
 # Computing 2: Applications – Module Handbook – 2022/23
-![Computing 2 Logo](handbook/logo.png)
 ```json
 {
     "Version": "4.-1.0",
