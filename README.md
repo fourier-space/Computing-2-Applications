@@ -9,9 +9,9 @@
 ## Table of Contents
 1. [Teaching Staff](Staff)
 1. [You Said, We Did – Changes from last year](Changes)
-1. [Module Descriptor and Assignment Brief](Module)
-1. [In Person and Online learning](Learning)
-1. [Peer review]("Peer review")
+1. [Module Descriptor and Assignment Brief](Module_and_assessment)
+1. [In Person and Online learning](Learning_environment)
+1. [Peer review](Peer_review)
 1. [Environment setup instructions](Setup)
 1. [Additional Resources](Resources)
 
