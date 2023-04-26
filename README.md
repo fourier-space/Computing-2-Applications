@@ -11,7 +11,7 @@
 1. [You Said, We Did – Changes from last year](Changes)
 1. [Module Descriptor and Assignment Brief](Module)
 1. [In Person and Online learning](Learning)
-1. [Peer review](Peer)
+1. [Peer review]("Peer review")
 1. [Environment setup instructions](Setup)
 1. [Additional Resources](Resources)
 
