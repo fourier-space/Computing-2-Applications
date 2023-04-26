@@ -7,13 +7,13 @@
 ```
 
 ## Table of Contents
-1. [Teaching Staff](Staff.md)
-1. [You Said, We Did – Changes from last year](Changes.md)
-1. [Module Descriptor and Assignment Brief](Module.md)
-1. [In Person and Online learning](Learning.md)
-1. [Peer review](Peer.md)
-1. [Environment setup instructions](Setup.md)
-1. [Additional Resources](Resources.md)
+1. [Teaching Staff](Staff)
+1. [You Said, We Did – Changes from last year](Changes)
+1. [Module Descriptor and Assignment Brief](Module)
+1. [In Person and Online learning](Learning)
+1. [Peer review](Peer)
+1. [Environment setup instructions](Setup)
+1. [Additional Resources](Resources)
 
 ## Key Repositories, Weekly Repositories
 * [Zombie Siege – Example submission](https://github.com/fourier-space/zombie-siege)
