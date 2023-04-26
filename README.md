@@ -18,6 +18,7 @@
 ## Key Repositories, Weekly Repositories
 * [Zombie Siege – Example submission](https://github.com/fourier-space/zombie-siege)
 * [Tetris Exercise (SQT)](https://github.com/fourier-space/sqt)
+* [Starter code template](https://github.com/fourier-space/Computing-2-Submission-Template)
 This list will be populated each week with that week's code repo.
 * [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
 

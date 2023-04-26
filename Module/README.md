@@ -1,4 +1,4 @@
-## Module descriptor ##
+## Module descriptor and assessment brief ##
 **From the module specification:**
 In Computing 2: Applications students will learn about application programming,
 i.e. writing computer programs for end-users.
@@ -62,7 +62,7 @@ Implement in code the unit tests specified above.
 Produce a web application that allows a user to interface with your
 game module.
 
-![Submission structure](handbook/submission_map.png)
+![Submission structure](assets/submission_map.png)
 
 **Deadline Friday 24th June 16:00**
 
