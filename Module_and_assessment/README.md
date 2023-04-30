@@ -123,9 +123,11 @@ which will the grade of each component by how many are met.
   * Provides a web browser based user interface for the chosen game.
 * **Excellent:**
   * User interface is clean and intuitive.
-  * ~~Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)~~
-  * ~~Handles an Ajax interaction with the server using promises.~~
+  * Handles an appropriate range of input or timer events.
+  * The interface represents and allows interaction at all reasonably accessible game states.
   * Project separates structural (html), styling (css), and behavioural (javascript) code.
+  * The interface references the game module for access to its functions, without implementing game logic itself.
+  * Follows accessibility guidelines. (E.g. with attention to semantic markup, keyboard access, contrast and colour-blindness, etc. – Use the audit tools to identify issues)
 
 Components will be marked as:
 |  |  |
@@ -156,7 +158,7 @@ A **5%** penalty may be applied if the submission requirements aren't adhered to
 Your submission must also conform to the following:
 
 1. Your coding project must be written in Javascript for the server side component to be run on Node.js (16+)
-1. Your direectory structure must match the provided template. i.e.
+1. Your directory structure must match the provided template. i.e.
     * there is a `web-app` directory at the top level of your repository.
     * This contains `server`, `browser`, `common`, and `tests` subdirectories.
     * Within `/web-app/server` there is a `server.js` which will be the main file that is run.

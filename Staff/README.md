@@ -1,14 +1,14 @@
 ## Teaching staff ##
 ### Module leadership ###
 
-| ![Freddie Page](assets/Freddie.jpg) | ![Pietro Ferraro](assets/Pietro.jpg) |
+| ![Freddie Page](assets/Freddie.jpg) | ![Becky Stewart](assets/Becky.png) |
 |---|---|
-| Dr Freddie Page | Dr Pietro Ferraro |
+| Dr Freddie Page | Dr Becky Stewart |
 | Module Leader | Associate Module Leader |
 
 ### Teaching assistants ###
-| ![Max](assets/Max.png) | ![Cosmin](assets/Cosmin.png) | ![Amelia](assets/Amelia.png) | ![Amy](assets/Amy.png) | ![Sarthak](assets/Sarthak.png) |
+| ![Ria](assets/Ria.png) | ![Maryam](assets/Maryam.jpg) | ![Avyay](assets/Avyay.jpg) | ![Nora](assets/Nora.png) | ![Site](assets/Site.png) |
 |---|---|---|---|---|
-| Max Matthews | Cosmin Vonsovici | Amelia Bryant | Amy Walter | Sarthak Das |
-| ![Michela](assets/Michela.png) | ![Laura](assets/Laura.png) | ![Jack](assets/Jack.png) | ![James](assets/James.png) | |
-| Michela Puglia | Laura Bastos | Jack Beaumont | James Howells |  |
+| Ria Dhopatkar | Maryam Fetanat | Avyay Jamadagni | Nora Luo | Site Ma |
+| ![Navyansh](assets/Navyansh.jpg) | ![Lucas](assets/Lucas.png) | ![Beam](assets/Beam.png) | ![Marci](assets/Marci.png) | |
+| Navyansh Malhotra | Lucas Newman | Beam Suwiwatchai | Marci Talbot | James Howells |  |
