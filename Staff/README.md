@@ -11,4 +11,4 @@
 |---|---|---|---|---|
 | Ria Dhopatkar | Maryam Fetanat | Avyay Jamadagni | Nora Luo | Site Ma |
 | ![Navyansh](assets/Navyansh.jpg) | ![Lucas](assets/Lucas.png) | ![Beam](assets/Beam.png) | ![Marci](assets/Marci.png) | |
-| Navyansh Malhotra | Lucas Newman | Beam Suwiwatchai | Marci Talbot | James Howells |  |
+| Navyansh Malhotra | Lucas Newman | Beam Suwiwatchai | Marci Talbot |  |  |
