@@ -23,5 +23,8 @@
 This list will be populated each week with that week's code repo.
 * [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
 
+## Notes
+* [Javascript Language Review](https://fourier-space.github.io/Computing-2-Notes/javascript/)
+
 ## Change log ##
 * 4.0.0: Initial release for 2022/23.

@@ -1,4 +1,4 @@
-## Peer review ##
+# Peer review
 In this module, you will have the opportunity to engage in peer review.
 This is a formative exercise,
 but participation will gain 2.5% extra credit for participating and providing feedback, and an extra 2.5% for is that feedback was useful.

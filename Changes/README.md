@@ -1,7 +1,20 @@
-## You Said, We Did – Changes from last year
+# You Said, We Did – Changes from last year
 In response to student feedback and to improve the module,
 the following changes have been made from last year.
 
+## 2022–23
+### Removed Server Side
+Client-server interaction is an exciting part of web development, and allows for multi-user interaction.
+However it's a large additional cognative load and complicates the structure of the app and use of the tooling. It will now not be a requirement of the submission.
+
+### Parallel Streams
+There's two aspects to developing a web app,
+a module for the logic of your game in pure javascript,
+and a program for the browser that is the user interface.
+We'll look at these in parallel, using one of the weekly sessions for each.
+This should allow you to work in parallel on different parts of the assessment from earlier in the module.
+
+## 2021–22
 ### Constrained submission – Game
 Students had found the assignment brief too open ended previously.
 This made it difficult to know where to start.
