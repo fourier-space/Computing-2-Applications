@@ -62,7 +62,7 @@ game module.
 
 ![Submission structure](assets/submission_map.png)
 
-**Deadline Friday 24th June 16:00**
+**Deadline Friday 23rd June 16:00**
 
 ## Learning and teaching strategy ##
 This is a project based learning module with a

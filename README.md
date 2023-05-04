@@ -1,7 +1,7 @@
 # Computing 2: Applications – Module Handbook – 2022/23
 ```json
 {
-    "Version": "4.-1.0",
+    "Version": "4.0.0",
     "Updated": "2023-04-25"
 }
 ```
