@@ -148,7 +148,7 @@ The overall mark will be determined by the component grades in an expected ratio
 Additional credit on top of the overall mark may be awarded for,
 * Providing feedback in peer assessment. **(+2.5%)**
 * Peer assessment feedback being useful. **(+2.5%)**
-* Good Citizenship – at the discretion of the module leader – for continuous efforts in support of the academic community, e.g. assisting other, answering and asking questions **(+5%)**
+* Good Citizenship – at the discretion of the module leader – for continuous efforts in support of the academic community, e.g. assisting other, answering and asking questions, e.g. on [ed](https://edstem.org/us/courses/39254/discussion/) **(+5%)**
 
 A **5%** penalty may be applied if the submission requirements aren't adhered to and this leads to problems in opening or running the submission for assessment.
 

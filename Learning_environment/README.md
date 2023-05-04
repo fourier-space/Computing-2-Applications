@@ -25,3 +25,9 @@ will be linked on github.
 [Blackboard course page](https://bb.imperial.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_2478605_1&course_id=_35044_1)
 
 Links to all this, and access to some of the tools will be on Blackboard.
+
+## Discussion Forum – Ed
+We will be using Ed as a discussion forum.
+Ask and answer questions, share insights, and help each other out!
+There is the potential for extra credit for good citizenship - at the module leader's discretion.
+[Ed Discussion](https://edstem.org/us/courses/39254/discussion/)
