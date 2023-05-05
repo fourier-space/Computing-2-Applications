@@ -151,7 +151,7 @@ We need to make a workspace for the activities that we will be doing this term.
 
 1. In VSCode open a new folder. `File » Open Folder…`.
 1. Next create a `Computing 2` folder in a location of your choosing.
-1. Next, follow the instructions on https://code.visualstudio.com/docs/editor/github to clone both the module repo and your submission repo to this folder.
+1. Next, follow the instructions on https://code.visualstudio.com/docs/editor/github to clone both the * [Week 1](https://github.com/fourier-space/Computing-2-Week-1) repo and your submission repo to this folder.
 
 ## Test your setup
 You can open a subdirectory at any time using the `Open Folder…` command,
