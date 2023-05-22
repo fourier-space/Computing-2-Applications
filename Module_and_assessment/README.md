@@ -104,7 +104,7 @@ which will the grade of each component by how many are met.
 * **Passing:**
   * Define a set of tests relevant to the domain at hand.
 * **Excellent:**
-  * Define a Suitable range of tests. These can be limited to one aspect, e.g. the win condtion or the the response to a move.
+  * Define a suitable range of tests. These can be limited to one aspect, e.g. the win condition or the the response to a move.
   * Tests are for behaviour rather than implementation.
   * Descriptors for tests are well written, e.g. making use of the Given..When..Then triple where appropriate.
 
