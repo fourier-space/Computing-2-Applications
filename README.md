@@ -1,7 +1,7 @@
 # Computing 2: Applications – Module Handbook – 2022/23
 ```json
 {
-    "Version": "4.0.4",
+    "Version": "4.1.0",
     "Updated": "2023-05-09"
 }
 ```
@@ -29,6 +29,7 @@ This list will be populated each week with that week's code repo.
 * [Structure of a Web App](https://fourier-space.github.io/Computing-2-Notes/structure/)
 
 ## Change log ##
+* 4.1.0: Clarified assessment criteria wording, following internal examiner review.
 * 4.0.4: Week 2 Repo added.
 * 4.0.3: New note on web app structure.
 * 4.0.0: Initial release for 2022/23.
