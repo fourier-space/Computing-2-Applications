@@ -144,6 +144,9 @@ The overall mark will be determined by the component grades in an expected ratio
 * 1 / 3 – Unit Tests (Specification + Implementation)
 * 1 / 3 – Web Application
 
+### Example Submission
+The [Example submission – Zombie Siege](https://github.com/fourier-space/zombie-siege) would score Excellent (A) on all assessment criteria.
+
 ### Additional Credit
 Additional credit on top of the overall mark may be awarded for,
 * Providing feedback in peer assessment. **(+2.5%)**
