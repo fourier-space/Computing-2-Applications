@@ -84,7 +84,7 @@ which will the grade of each component by how many are met.
 * **Passing:**
   * Documents an API for a Javascript module.
 * **Excellent:**
-  * Has a suitable range of functions relevant to the domain at hand.
+  * Has a suitable range of functions relevant to the domain at hand. I.e. functions to transition between valid game states and extract relevant information from the state.
   * The functions are documented primarily in terms of their domain rather than their implementation.
   * API is clear to follow and understand.
   * Appropriate function signatures, e.g. parameters, order, and return types.
@@ -104,7 +104,7 @@ which will the grade of each component by how many are met.
 * **Passing:**
   * Define a set of tests relevant to the domain at hand.
 * **Excellent:**
-  * Define a suitable range of tests. These can be limited to one aspect, e.g. the win condition or the the response to a move.
+  * Define a suitable range of tests. I.e. to specify for a significant aspect of the game module, e.g. the win condition or the the response to a move.
   * Tests are for behaviour rather than implementation.
   * Descriptors for tests are well written, e.g. making use of the Given..When..Then triple where appropriate.
 
