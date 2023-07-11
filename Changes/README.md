@@ -5,7 +5,7 @@ the following changes have been made from last year.
 ## 2022–23
 ### Removed Server Side
 Client-server interaction is an exciting part of web development, and allows for multi-user interaction.
-However it's a large additional cognative load and complicates the structure of the app and use of the tooling. It will now not be a requirement of the submission.
+However it's a large additional cognitive load and complicates the structure of the app and use of the tooling. It will now not be a requirement of the submission.
 
 ### Parallel Streams
 There's two aspects to developing a web app,
