@@ -10,7 +10,7 @@
 1. [Teaching Staff](Staff/README.md)
 1. [You Said, We Did – Changes from last year](Changes/README.md)
 1. [Module Descriptor and Assignment Brief](Module_and_assessment/README.md)
-1. [In Person and Online learning](Learning_environment/README.md)
+1. [Learning environment](Learning_environment/README.md)
 1. [Peer review](Peer_review/README.md)
 1. [Environment setup instructions](Setup/README.md)
 1. [Additional Resources](Resources/README.md)

@@ -1,7 +1,8 @@
 # Peer review
 In this module, you will have the opportunity to engage in peer review.
 This is a formative exercise,
-but participation will gain 2.5% extra credit for participating and providing feedback, and an extra 2.5% for is that feedback was useful.
+but participation will gain 2.5% extra credit for participating and providing feedback,
+and an extra 2.5% for is that feedback was useful.
 
 For the peer assessment you will submit a draft version of your final project
 on Github Classroom and you will be paired anonymously with another student
@@ -15,7 +16,7 @@ The feedback you provide each other will also provide an important point of
 reference for your project particularly for the user interface and experience
 you present.
 
-Peer assessment will happen in Week 7.
+Peer assessment will happen in Week 8.
 In the week, you will have time to prepare your draft submission for
 assessment, and will have time to assess and write
 feedback for your assigned project.

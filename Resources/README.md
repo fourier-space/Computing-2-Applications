@@ -26,5 +26,5 @@ https://grumpy.website/
 ## Books
 1. **Javascript: The Good Parts, Douglas Crockford**: A brilliant book that first discovered that javascript does indeed have good parts. It’s 12 years old but still stands up.
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,crockford&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9035110810864614931&mode=Basic&offset=0)
-1. **Simplifying Javascipt, Joe Morgan**: A good set of explanations and modern js patterns.
+1. **Simplifying Javascript, Joe Morgan**: A good set of explanations and modern js patterns.
 [Library Online Access](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,%22simplifying%20javascript%22&tab=Everything&search_scope=MyInst_and_CI&vid=44IMP_INST:ICL_VU1&offset=0)

@@ -10,23 +10,25 @@ Students will also learn about user interface and experience.
 By the end of the module, students will code their own web-app project
 incorporating what they have learned.
 
+  **Module Submission Deadline: Thursday 26th June 16:00**
+
 ## Learning outcomes ##
 *On completion of this module, students will be better able to:*
 
-**Coding (Reinforces S3,  K4):**  
+**Coding (Reinforces S3,  K4):**
 Write computer applications for human interaction
 using a set of modern paradigms.
 
-**UX/UI (Introduces K2):**  
+**UX/UI (Introduces K2):**
 Design and implement user experiences and interfaces.
 
-**Data (Introduces K1):**  
+**Data (Introduces K1):**
 Manipulate data structures.
 
-**Debugging (Reinforces S1, Introduces A1):**  
+**Debugging (Reinforces S1, Introduces A1):**
 Debug their own programs, identifying, documenting, and solving software bugs.
 
-**Best practice (Reinforces S1, Introduces A2):**  
+**Best practice (Reinforces S1, Introduces A2):**
 Engage with industry/professional best practice in managing a coding project.
 
 ## Assignment brief ##
@@ -61,8 +63,6 @@ Produce a web application that allows a user to interface with your
 game module.
 
 ![Submission structure](assets/submission_map.png)
-
-**Deadline Friday 23rd June 16:00**
 
 ## Learning and teaching strategy ##
 This is a project based learning module with a
@@ -144,7 +144,7 @@ The overall mark will be determined by the component grades in an expected ratio
 * 1 / 3 – Unit Tests (Specification + Implementation)
 * 1 / 3 – Web Application
 
-Students must acheive a passing grade in every assessment criterion
+Students must achieve a passing grade in every assessment criterion
 to be awarded a passing grade for the assessment as a whole.
 
 ### Example Submission
@@ -154,7 +154,7 @@ The [Example submission – Zombie Siege](https://github.com/fourier-space/zombi
 Additional credit on top of the overall mark may be awarded for,
 * Providing feedback in peer assessment. **(+2.5%)**
 * Peer assessment feedback being useful. **(+2.5%)**
-* Good Citizenship – at the discretion of the module leader – for continuous efforts in support of the academic community, e.g. assisting other, answering and asking questions, e.g. on [ed](https://edstem.org/us/courses/39254/discussion/) **(+5%)**
+* Good Citizenship – at the discretion of the module leader – for continuous efforts in support of the academic community, e.g. assisting other, answering and asking questions, e.g. on [ed](../Learning_environment/README.md) **(+5%)**
 
 A **5%** penalty may be applied if the submission requirements aren't adhered to and this leads to problems in opening or running the submission for assessment.
 
