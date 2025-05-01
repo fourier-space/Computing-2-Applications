@@ -144,6 +144,9 @@ The overall mark will be determined by the component grades in an expected ratio
 * 1 / 3 – Unit Tests (Specification + Implementation)
 * 1 / 3 – Web Application
 
+Students must acheive a passing grade in every assessment criterion
+to be awarded a passing grade for the assessment as a whole.
+
 ### Example Submission
 The [Example submission – Zombie Siege](https://github.com/fourier-space/zombie-siege) would score Excellent (A) on all assessment criteria.
 
