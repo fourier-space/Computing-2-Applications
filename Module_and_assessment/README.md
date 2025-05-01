@@ -104,9 +104,9 @@ which will the grade of each component by how many are met.
 * **Passing:**
   * Define a set of tests relevant to the domain at hand.
 * **Excellent:**
-  * Define a suitable range of tests. I.e. to specify for a significant aspect of the game module, e.g. the win condition or the the response to a move.
+  * Define a suitable range of tests that specify for a significant aspect of the game module.
   * Tests are for behaviour rather than implementation.
-  * Descriptors for tests are well written, e.g. making use of the Given..When..Then triple where appropriate.
+  * Descriptors for tests are clear for the behaviour they are specifying.
 
 ### Unit Tests – Implementation
 * **Passing:**

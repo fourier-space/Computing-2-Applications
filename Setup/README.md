@@ -12,7 +12,7 @@ It additionally comes with a package manager, npm (Node Package Manager),
 which we will use to install some dependencies for some of the extensions below.
 It also provides an interactive shell for quick testing of javascript snippets.
 
-Download and install the LTS version (i.e. 18.) of node from
+Download and install the LTS version (i.e. 22.) of node from
 https://nodejs.org/en/
 
 To test the Node.js has installed correctly:
@@ -65,7 +65,7 @@ Configure the extension settings, and set:
 Firefox: Keep Profile Changes to true.
 Firefox: Profile to dev-edition-default
 ```
-Each workspace folder in vscode has its own debugger settings. This is set in the .vscode/launch.json file. 
+Each workspace folder in vscode has its own debugger settings. This is set in the .vscode/launch.json file.
 A default launch.json is provided.
 
 #### JSLint extension
@@ -84,6 +84,8 @@ Globally install the JSLint npm package
 (a system restart may be needed if the system cannot find the npm command)
 Install the JSLint extension for VSCode https://marketplace.visualstudio.com/items?itemName=ajhyndman.jslint
 Configure the extension settings, add the following to settings.json
+`Ctrl-Shift-P » Preferences: Open User Settings (JSON)`
+
 ```
     "jslint.version": "es6",
     "jslint.options": {
