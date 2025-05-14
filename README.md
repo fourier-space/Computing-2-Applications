@@ -1,8 +1,8 @@
 # Computing 2: Applications – Module Handbook – 2024/25
 ```json
 {
-    "Version": "5.0.1",
-    "Updated": "2025-05-09"
+    "Version": "5.0.2",
+    "Updated": "2025-05-14"
 }
 ```
 
@@ -22,11 +22,13 @@
 This list will be populated each week with that week's code repo.
 * [Week 1](https://github.com/fourier-space/Computing-2-Week-1)
 * [Week 2](https://github.com/fourier-space/Computing-2-Week-2)
+* [Week 3](https://github.com/fourier-space/Computing-2-Week-3)
 
 ## Notes
 * [Javascript Language Review](https://fourier-space.github.io/Computing-2-Notes/javascript/)
 * [Structure of a Web App](https://fourier-space.github.io/Computing-2-Notes/structure/)
 
 ## Change log ##
+* 5.0.2: Week 3 code repo linked.
 * 5.0.1: Week 2 code repo linked.
 * 5.0.0: Initial release for 2024/25.
