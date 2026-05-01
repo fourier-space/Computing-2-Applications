@@ -10,7 +10,7 @@ Students will also learn about user interface and experience.
 By the end of the module, students will code their own web-app project
 incorporating what they have learned.
 
-  **Module Submission Deadline: Thursday 26th June 16:00**
+  **Module Submission Deadline: Thursday 25th June 16:00**
 
 ## Learning outcomes ##
 *On completion of this module, students will be better able to:*

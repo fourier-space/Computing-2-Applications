@@ -1,12 +1,12 @@
 # Teaching staff
 ## Module leadership
 
-| ![Freddie Page](assets/Freddie.jpg) | ![Becky Stewart](assets/Becky.png) |
-|---|---|
-| Dr Freddie Page | Dr Becky Stewart |
-| Module Leader | Associate Module Leader |
+| ![Freddie Page](assets/Freddie.jpg) |
+|---|
+| Dr Freddie Page |
+| Module Leader |
 
 ## Teaching assistants
-| ![Navyansh](assets/Navyansh.jpg) | ![Avyay](assets/Avyay.jpg) | ![Beam](assets/Beam.png) | ![Marci](assets/Marci.png) | ![Yasmin](assets/Yasmin.jpg) | ![Ria](assets/Ria.jpg) |
+| ![Anson](assets/Anson.jpeg) | ![Constance](assets/Constance.png) | ![Gabriela](assets/Gabriela.png) | ![Marci](assets/Marci.png) | ![Vasco](assets/Vasco.jpeg) | ![Zoe](assets/Zoe.png) |
 |---|---|---|---|---|---|
-| Navyansh Malhotra | Avyay Jamadagni | Beam Suwiwatchai | Marci Talbot | Yasmin Zaraket | Ria Dhopatkar |
+| Anson Cheng | Constance Miao | Gabriela Lee | Marci Talbot | Vasco de Noronha | Zoe Hall |
