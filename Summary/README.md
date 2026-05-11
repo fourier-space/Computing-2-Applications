@@ -3,6 +3,31 @@
 This is an [AI Generated](#prompt) summary of the lecture transcipts from the
 2024-25 academic session.
 
+
+## Summary Table
+
+|File / Week|Inferred title|Main focus|Key concepts|Practical outcome|
+|---|---|---|---|---|
+|[Week 1.1](#week-11--module-introduction-and-setup)|Module introduction and setup|Overview of Computing 2|JavaScript, web apps, functional programming, assessment, environment setup|Students understand module structure and install tools|
+|[Week 2.1](#week-21--spreadsheet-model-of-computation-map-filter-reduce)|Spreadsheet model of computation|Functional list processing|map, filter, reduce, debugging, floating-point issues|Spreadsheet ideas translated into JavaScript arrays|
+|[Week 2.2](#week-22--thinking-about-games)|Thinking about games|Analysing games before coding|game types, game state, finite state machines, pure functions|Students learn to describe games as states and transitions|
+|[Week 2.3](#week-23--web-app-project-structure)|Web app project|Project structure and tooling|HTML/CSS/JS roles, module types, GitHub Classroom, run configurations|Students understand how web app files fit together|
+|[Week 3.1](#week-31--functional-array-methods-in-more-depth)|Functional array methods|Deeper use of JS functional style|higher-order functions, currying, reduce, descriptive coding style|More idiomatic JS functional programming|
+|[Week 3.2](#week-32--specifying-the-connect-4-module)|Connect 4 module specification|API and abstraction design|representation choices, public API, slots/discs/grid concepts|Students sketch module interfaces before implementation|
+|[Week 3.3](#week-33--starting-the-user-interface)|Starting the UI|First HTML/CSS game UI scaffold|layout structure, semantic HTML, aspect ratio, absolute positioning|Basic Lights Out interface layout created|
+|[Week 4.1](#week-41--ramda-functions)|Ramda functions|Functional programming library use|Ramda, composition, pipe, data-last, point-free style|Students gain more expressive functional tools|
+|[Week 4.2](#week-42--module-documentation)|Module documentation|JSDoc and API communication|namespaces, custom types, auto-generated docs, documenting interfaces|Students learn to produce module documentation|
+|[Week 4.3](#week-43--generating-the-ui)|Generating the UI|Building UI dynamically in JS|DOM creation, event hooks, reusable UI, state-to-DOM mapping|Lights Out/Connect 4 UI generated programmatically|
+|[Week 5.1](#week-51--coding-connect-4)|Coding Connect 4|Implementing game logic|decomposition, abstraction levels, grid operations, win logic|Core Connect 4 functionality begins to take shape|
+|[Week 5.2](#week-52--specifying-unit-tests)|Specifying unit tests|Writing tests as specifications|given/when/then, arrange/act/assert, behavioural test design|Test suite structure defined before code|
+|[Week 5.3](#week-53--ui-refinement)|UI refinement|Improving visual quality|CSS polishing, variables, inspector workflow|Lights Out UI becomes more game-like|
+|[Week 6.2](#week-62--implementing-tests)|Implementing tests|Executable unit tests|assertions, deep equality, setup hooks, pure-module testing|Unit tests become runnable and informative|
+|[Week 6.3](#week-63--accessibility)|Accessibility|Inclusive UI design|keyboard control, focus, tabindex, WCAG, Axe audits|Game becomes usable without a mouse|
+|[Week 7.1](#week-71--test-driven-development)|Test-driven development|Red–green–refactor workflow|TDD, shallow/deep copy, cloning, refactoring discipline|Students see testing as a development method|
+|[Week 7.2](#week-72--switching-the-ui)|Switching the UI|Reusing UI for another game|interface/logic decoupling, swapping game modules|Lights Out UI adapted to Connect 4 logic|
+
+---
+
 ## Overall Module Arc
 
 Across the lectures, the module develops in a clear progression:
@@ -38,30 +63,6 @@ So the course is not just “make a game in JavaScript”; it is really about le
 
 ---
 
-
-## Summary Table
-
-|File / Week|Inferred title|Main focus|Key concepts|Practical outcome|
-|---|---|---|---|---|
-|[Week 1.1](#week-11--module-introduction-and-setup)|Module introduction and setup|Overview of Computing 2|JavaScript, web apps, functional programming, assessment, environment setup|Students understand module structure and install tools|
-|[Week 2.1](#week-21--spreadsheet-model-of-computation-map-filter-reduce)|Spreadsheet model of computation|Functional list processing|map, filter, reduce, debugging, floating-point issues|Spreadsheet ideas translated into JavaScript arrays|
-|[Week 2.2](#week-22--thinking-about-games)|Thinking about games|Analysing games before coding|game types, game state, finite state machines, pure functions|Students learn to describe games as states and transitions|
-|[Week 2.3](#week-23--web-app-project-structure)|Web app project|Project structure and tooling|HTML/CSS/JS roles, module types, GitHub Classroom, run configurations|Students understand how web app files fit together|
-|[Week 3.1](#week-31--functional-array-methods-in-more-depth)|Functional array methods|Deeper use of JS functional style|higher-order functions, currying, reduce, descriptive coding style|More idiomatic JS functional programming|
-|[Week 3.2](#week-32--specifying-the-connect-4-module)|Connect 4 module specification|API and abstraction design|representation choices, public API, slots/discs/grid concepts|Students sketch module interfaces before implementation|
-|[Week 3.3](#week-33--starting-the-user-interface)|Starting the UI|First HTML/CSS game UI scaffold|layout structure, semantic HTML, aspect ratio, absolute positioning|Basic Lights Out interface layout created|
-|[Week 4.1](#week-41--ramda-functions)|Ramda functions|Functional programming library use|Ramda, composition, pipe, data-last, point-free style|Students gain more expressive functional tools|
-|[Week 4.2](#week-42--module-documentation)|Module documentation|JSDoc and API communication|namespaces, custom types, auto-generated docs, documenting interfaces|Students learn to produce module documentation|
-|[Week 4.3](#week-43--generating-the-ui)|Generating the UI|Building UI dynamically in JS|DOM creation, event hooks, reusable UI, state-to-DOM mapping|Lights Out/Connect 4 UI generated programmatically|
-|[Week 5.1](#week-51--coding-connect-4)|Coding Connect 4|Implementing game logic|decomposition, abstraction levels, grid operations, win logic|Core Connect 4 functionality begins to take shape|
-|[Week 5.2](#week-52--specifying-unit-tests)|Specifying unit tests|Writing tests as specifications|given/when/then, arrange/act/assert, behavioural test design|Test suite structure defined before code|
-|[Week 5.3](#week-53--ui-refinement)|UI refinement|Improving visual quality|CSS polishing, variables, inspector workflow|Lights Out UI becomes more game-like|
-|[Week 6.2](#week-62--implementing-tests)|Implementing tests|Executable unit tests|assertions, deep equality, setup hooks, pure-module testing|Unit tests become runnable and informative|
-|[Week 6.3](#week-63--accessibility)|Accessibility|Inclusive UI design|keyboard control, focus, tabindex, WCAG, Axe audits|Game becomes usable without a mouse|
-|[Week 7.1](#week-71--test-driven-development)|Test-driven development|Red–green–refactor workflow|TDD, shallow/deep copy, cloning, refactoring discipline|Students see testing as a development method|
-|[Week 7.2](#week-72--switching-the-ui)|Switching the UI|Reusing UI for another game|interface/logic decoupling, swapping game modules|Lights Out UI adapted to Connect 4 logic|
-
----
 
 ## Lecture Summaries
 
