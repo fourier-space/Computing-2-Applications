@@ -24,9 +24,11 @@ This list will be populated each week with that week's code repo.
 * [Week 2a – Map, Filter, Reduce](https://github.com/fourier-space/Computing-2-Week-2)
 
 ## Notes
+* [Lecture Summary](Summary/README.md)
 * [Javascript Language Review](https://fourier-space.github.io/Computing-2-Notes/javascript/)
 * [Structure of a Web App](https://fourier-space.github.io/Computing-2-Notes/structure/)
 
 ## Change log ##
+* 6.0.2: Lecture Summary.
 * 6.0.1: Map, Filter, Reduce.
 * 6.0.0: Initial release for 2025/26.
