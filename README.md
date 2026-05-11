@@ -13,6 +13,7 @@
 1. [Learning environment](Learning_environment/README.md)
 1. [Peer review](Peer_review/README.md)
 1. [Environment setup instructions](Setup/README.md)
+1. [Lecture Summary](Summary/README.md)
 1. [Additional Resources](Resources/README.md)
 
 ## Key Repositories, Weekly Repositories
@@ -24,7 +25,6 @@ This list will be populated each week with that week's code repo.
 * [Week 2a – Map, Filter, Reduce](https://github.com/fourier-space/Computing-2-Week-2)
 
 ## Notes
-* [Lecture Summary](Summary/README.md)
 * [Javascript Language Review](https://fourier-space.github.io/Computing-2-Notes/javascript/)
 * [Structure of a Web App](https://fourier-space.github.io/Computing-2-Notes/structure/)
 
