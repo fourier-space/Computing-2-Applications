@@ -1,17 +1,64 @@
-## Prompt
-I asked a Chat GPT-5.4 model on, [Imperial's dAIsy](https://daisy.imperial.ac.uk/), to summarise last year's lecture transcripts.
+## Summary Table
 
-```
-I'm going to paste in the transcripts of a number of lectures. Can you summarise each of them please and make a table summary of the whole set. They are in vtt format. Some don't have titles. One week is missing.
-```
-
-## Response – Lecture Summaries
-
-Thanks — I can do this. Since one week is missing and some files are untitled, I’ve treated each file as an individual lecture/session and inferred titles where needed.
+|File / Week|Inferred title|Main focus|Key concepts|Practical outcome|
+|---|---|---|---|---|
+|Week 1.1|Module introduction and setup|Overview of Computing 2|JavaScript, web apps, functional programming, assessment, environment setup|Students understand module structure and install tools|
+|Week 2.1|Spreadsheet model of computation|Functional list processing|map\text{map}map, filter\text{filter}filter, reduce\text{reduce}reduce, debugging, floating-point issues|Spreadsheet ideas translated into JavaScript arrays|
+|Week 2.2|Thinking about games|Analysing games before coding|game types, game state, finite state machines, pure functions|Students learn to describe games as states and transitions|
+|Week 2.3|Web app project|Project structure and tooling|HTML/CSS/JS roles, module types, GitHub Classroom, run configurations|Students understand how web app files fit together|
+|Week 3.1|Functional array methods|Deeper use of JS functional style|higher-order functions, currying, reduce, descriptive coding style|More idiomatic JS functional programming|
+|Week 3.2|Connect 4 module specification|API and abstraction design|representation choices, public API, slots/discs/grid concepts|Students sketch module interfaces before implementation|
+|Week 3.3|Starting the UI|First HTML/CSS game UI scaffold|layout structure, semantic HTML, aspect ratio, absolute positioning|Basic Lights Out interface layout created|
+|Week 4.1|Ramda functions|Functional programming library use|Ramda, composition, pipe, data-last, point-free style|Students gain more expressive functional tools|
+|Week 4.2|Module documentation|JSDoc and API communication|namespaces, custom types, auto-generated docs, documenting interfaces|Students learn to produce module documentation|
+|Week 4.3|Generating the UI|Building UI dynamically in JS|DOM creation, event hooks, reusable UI, state-to-DOM mapping|Lights Out/Connect 4 UI generated programmatically|
+|Week 5.1|Coding Connect 4|Implementing game logic|decomposition, abstraction levels, grid operations, win logic|Core Connect 4 functionality begins to take shape|
+|Week 5.2|Specifying unit tests|Writing tests as specifications|given/when/then, arrange/act/assert, behavioural test design|Test suite structure defined before code|
+|Week 5.3|UI refinement|Improving visual quality|CSS polishing, variables, inspector workflow|Lights Out UI becomes more game-like|
+|Week 6.2|Implementing tests|Executable unit tests|assertions, deep equality, setup hooks, pure-module testing|Unit tests become runnable and informative|
+|Week 6.3|Accessibility|Inclusive UI design|keyboard control, focus, tabindex, WCAG, Axe audits|Game becomes usable without a mouse|
+|Week 7.1|Test-driven development|Red–green–refactor workflow|TDD, shallow/deep copy, cloning, refactoring discipline|Students see testing as a development method|
+|Week 7.2|Switching the UI|Reusing UI for another game|interface/logic decoupling, swapping game modules|Lights Out UI adapted to Connect 4 logic|
 
 ---
 
-## Per-lecture Summaries
+## Overall Module Arc
+
+Across the lectures, the module develops in a clear progression:
+
+1. **Orientation and setup**
+    - what the module is
+    - what tools are needed
+    - what the assessment expects
+2. **Functional-programming foundations**
+    - map/filter/reduce
+    - higher-order functions
+    - currying, composition, Ramda
+3. **Game analysis and specification**
+    - what a game is
+    - how to represent game state
+    - how to specify APIs before coding
+4. **Web app construction**
+    - HTML/CSS structure
+    - DOM generation
+    - reusable UI patterns
+5. **Implementation and testing**
+    - coding Connect 4 logic
+    - specifying tests
+    - implementing tests
+    - test-driven development
+6. **Refinement**
+    - accessibility
+    - UI polish
+    - modular reuse
+    - peer review / community feedback
+
+So the course is not just “make a game in JavaScript”; it is really about learning to build a **well-specified, tested, documented, user-facing software artefact**.
+
+---
+
+
+## Lecture Summaries
 
 ### Week 1.1 — Module Introduction and Setup
 
@@ -446,61 +493,20 @@ The lecture also includes reminders about upcoming **peer review**, and signals 
 
 ---
 
-## Whole-set Summary Table
+## Prompt
+This summary of the module's lecture content is AI generated.
+I asked a Chat GPT-5.4 model on, [Imperial's dAIsy](https://daisy.imperial.ac.uk/), to summarise the 2024-25 lecture transcripts.
 
-|File / Week|Inferred title|Main focus|Key concepts|Practical outcome|
-|---|---|---|---|---|
-|Week 1.1|Module introduction and setup|Overview of Computing 2|JavaScript, web apps, functional programming, assessment, environment setup|Students understand module structure and install tools|
-|Week 2.1|Spreadsheet model of computation|Functional list processing|map\text{map}map, filter\text{filter}filter, reduce\text{reduce}reduce, debugging, floating-point issues|Spreadsheet ideas translated into JavaScript arrays|
-|Week 2.2|Thinking about games|Analysing games before coding|game types, game state, finite state machines, pure functions|Students learn to describe games as states and transitions|
-|Week 2.3|Web app project|Project structure and tooling|HTML/CSS/JS roles, module types, GitHub Classroom, run configurations|Students understand how web app files fit together|
-|Week 3.1|Functional array methods|Deeper use of JS functional style|higher-order functions, currying, reduce, descriptive coding style|More idiomatic JS functional programming|
-|Week 3.2|Connect 4 module specification|API and abstraction design|representation choices, public API, slots/discs/grid concepts|Students sketch module interfaces before implementation|
-|Week 3.3|Starting the UI|First HTML/CSS game UI scaffold|layout structure, semantic HTML, aspect ratio, absolute positioning|Basic Lights Out interface layout created|
-|Week 4.1|Ramda functions|Functional programming library use|Ramda, composition, pipe, data-last, point-free style|Students gain more expressive functional tools|
-|Week 4.2|Module documentation|JSDoc and API communication|namespaces, custom types, auto-generated docs, documenting interfaces|Students learn to produce module documentation|
-|Week 4.3|Generating the UI|Building UI dynamically in JS|DOM creation, event hooks, reusable UI, state-to-DOM mapping|Lights Out/Connect 4 UI generated programmatically|
-|Week 5.1|Coding Connect 4|Implementing game logic|decomposition, abstraction levels, grid operations, win logic|Core Connect 4 functionality begins to take shape|
-|Week 5.2|Specifying unit tests|Writing tests as specifications|given/when/then, arrange/act/assert, behavioural test design|Test suite structure defined before code|
-|Week 5.3|UI refinement|Improving visual quality|CSS polishing, variables, inspector workflow|Lights Out UI becomes more game-like|
-|Week 6.2|Implementing tests|Executable unit tests|assertions, deep equality, setup hooks, pure-module testing|Unit tests become runnable and informative|
-|Week 6.3|Accessibility|Inclusive UI design|keyboard control, focus, tabindex, WCAG, Axe audits|Game becomes usable without a mouse|
-|Week 7.1|Test-driven development|Red–green–refactor workflow|TDD, shallow/deep copy, cloning, refactoring discipline|Students see testing as a development method|
-|Week 7.2|Switching the UI|Reusing UI for another game|interface/logic decoupling, swapping game modules|Lights Out UI adapted to Connect 4 logic|
+```
+I'm going to paste in the transcripts of a number of lectures. Can you summarise each of them please and make a table summary of the whole set. They are in vtt format. Some don't have titles. One week is missing.
+```
+
+### Response
+```
+# Lecture Summaries
+
+Thanks — I can do this. Since one week is missing and some files are untitled, I’ve treated each file as an individual lecture/session and inferred titles where needed.
 
 ---
-
-## Overall Module Arc
-
-Across the lectures, the module develops in a clear progression:
-
-1. **Orientation and setup**
-    - what the module is
-    - what tools are needed
-    - what the assessment expects
-2. **Functional-programming foundations**
-    - map/filter/reduce
-    - higher-order functions
-    - currying, composition, Ramda
-3. **Game analysis and specification**
-    - what a game is
-    - how to represent game state
-    - how to specify APIs before coding
-4. **Web app construction**
-    - HTML/CSS structure
-    - DOM generation
-    - reusable UI patterns
-5. **Implementation and testing**
-    - coding Connect 4 logic
-    - specifying tests
-    - implementing tests
-    - test-driven development
-6. **Refinement**
-    - accessibility
-    - UI polish
-    - modular reuse
-    - peer review / community feedback
-
-So the course is not just “make a game in JavaScript”; it is really about learning to build a **well-specified, tested, documented, user-facing software artefact**.
-
----
+```
+A version of this document, which I have subsequently edited, then followed.
