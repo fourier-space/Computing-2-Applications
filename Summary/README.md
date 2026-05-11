@@ -1,5 +1,8 @@
 # Lecture Summary (2024-25)
 
+This is an [AI Generated](#prompt) summary of the lecture transcipts from the
+2024-25 academic session.
+
 ## Overall Module Arc
 
 Across the lectures, the module develops in a clear progression:
@@ -41,7 +44,7 @@ So the course is not just “make a game in JavaScript”; it is really about le
 |File / Week|Inferred title|Main focus|Key concepts|Practical outcome|
 |---|---|---|---|---|
 |[Week 1.1](#week-11--module-introduction-and-setup)|Module introduction and setup|Overview of Computing 2|JavaScript, web apps, functional programming, assessment, environment setup|Students understand module structure and install tools|
-|[Week 2.1](#week-21--spreadsheet-model-of-computation-map-filter-reduce)|Spreadsheet model of computation|Functional list processing|map\text{map}map, filter\text{filter}filter, reduce\text{reduce}reduce, debugging, floating-point issues|Spreadsheet ideas translated into JavaScript arrays|
+|[Week 2.1](#week-21--spreadsheet-model-of-computation-map-filter-reduce)|Spreadsheet model of computation|Functional list processing|map, filter, reduce, debugging, floating-point issues|Spreadsheet ideas translated into JavaScript arrays|
 |[Week 2.2](#week-22--thinking-about-games)|Thinking about games|Analysing games before coding|game types, game state, finite state machines, pure functions|Students learn to describe games as states and transitions|
 |[Week 2.3](#week-23--web-app-project-structure)|Web app project|Project structure and tooling|HTML/CSS/JS roles, module types, GitHub Classroom, run configurations|Students understand how web app files fit together|
 |[Week 3.1](#week-31--functional-array-methods-in-more-depth)|Functional array methods|Deeper use of JS functional style|higher-order functions, currying, reduce, descriptive coding style|More idiomatic JS functional programming|
