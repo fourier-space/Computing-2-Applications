@@ -1,8 +1,8 @@
 # Computing 2: Applications – Module Handbook – 2025/26
 ```json
 {
-    "Version": "6.0.1",
-    "Updated": "2026-05-05"
+    "Version": "6.0.2",
+    "Updated": "2026-05-12"
 }
 ```
 
@@ -23,12 +23,14 @@
 This list will be populated each week with that week's code repo.
 * [Week 1 – Environment Setup](https://github.com/fourier-space/Computing-2-Week-1)
 * [Week 2a – Map, Filter, Reduce](https://github.com/fourier-space/Computing-2-Week-2)
+* [Week 3b – Thinking about games](https://github.com/fourier-space/Computing-2-Week-3)
 
 ## Notes
 * [Javascript Language Review](https://fourier-space.github.io/Computing-2-Notes/javascript/)
 * [Structure of a Web App](https://fourier-space.github.io/Computing-2-Notes/structure/)
 
 ## Change log ##
+* 6.0.3: Week 3 Link.
 * 6.0.2: Lecture Summary.
 * 6.0.1: Map, Filter, Reduce.
 * 6.0.0: Initial release for 2025/26.
